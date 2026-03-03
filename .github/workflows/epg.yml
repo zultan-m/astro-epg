@@ -1,0 +1,30 @@
+name: Update EPG
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install WebGrab
+        run: |
+          sudo apt update
+          sudo apt install mono-complete -y
+          wget https://github.com/SilentButeo2/webgrabplus/releases/download/V3.2.2/WebGrabPlus_V3.2.2_linux.tar.gz
+          tar -xzf WebGrabPlus_V3.2.2_linux.tar.gz
+
+      - name: Run WebGrab
+        run: mono WebGrab+Plus/WebGrab+Plus.exe
+
+      - name: Commit EPG
+        run: |
+          git config --global user.name "epg-bot"
+          git config --global user.email "epg@bot.com"
+          git add epg.xml
+          git commit -m "Auto update EPG"
+          git push
