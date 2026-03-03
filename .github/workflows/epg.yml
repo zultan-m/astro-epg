@@ -2,8 +2,6 @@ name: Generate EPG
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 20 * * *'
 
 jobs:
   build:
@@ -22,15 +20,16 @@ jobs:
         run: |
           wget https://github.com/SilentButeo2/webgrabplus/releases/download/V3.2.2/WebGrabPlus_V3.2.2_linux.tar.gz
           tar -xzf WebGrabPlus_V3.2.2_linux.tar.gz
+          mv WebGrabPlus/* .
 
-      - name: Download Siteini Pack
+      - name: Download SiteIniPack
         run: |
           wget http://webgrabplus.com/sites/default/files/download/SiteIniPack_current.zip
-          unzip SiteIniPack_current.zip -d WebGrab+Plus/
+          unzip SiteIniPack_current.zip
 
       - name: Run WebGrab
         run: |
-          mono WebGrab+Plus/WebGrab+Plus.exe
+          mono WebGrab+Plus.exe
 
       - name: Commit epg.xml
         run: |
