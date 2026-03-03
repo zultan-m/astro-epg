@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<settings>
-  <filename>epg.xml</filename>
-  <mode>n</mode>
-  <postprocess grab="y" run="n">mdb</postprocess>
-</settings>
+<?xml version="1.0" encoding="UTF-8"?>
+<WebGrabPlus>
+  <settings>
+    <filename>epg.xml</filename>
+    <mode>n</mode>
+    <postprocess grab="y" run="n">mdb</postprocess>
+    <license wg-username="zultan" wg-password="ZuL14520384$"/>
+  </settings>
 
-<channels>
-  <channel update="i" site="malaysiaastro.com" site_id="Astro Ria" xmltv_id="Astro Ria">Astro Ria</channel>
-  <channel update="i" site="malaysiaastro.com" site_id="Astro Prima" xmltv_id="Astro Prima">Astro Prima</channel>
-</channels>
+  <channels>
+    <channel update="i" site="astro.com.my" site_id="Astro Ria" xmltv_id="Astro Ria">Astro Ria</channel>
+  </channels>
+</WebGrabPlus>
