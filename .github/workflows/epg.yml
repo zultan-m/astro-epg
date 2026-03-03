@@ -16,10 +16,10 @@ jobs:
           sudo apt update
           sudo apt install -y mono-complete wget unzip
 
-      - name: Download WebGrab+Plus
+      - name: Download WebGrab+Plus (Latest)
         run: |
-          wget https://github.com/SilentButeo2/webgrabplus/releases/download/V3.2.2/WebGrabPlus_V3.2.2_linux.tar.gz
-          tar -xzf WebGrabPlus_V3.2.2_linux.tar.gz
+          wget https://www.webgrabplus.com/sites/default/files/download/WebGrabPlus_Linux_64.tar.gz
+          tar -xzf WebGrabPlus_Linux_64.tar.gz
           mv WebGrabPlus/* .
 
       - name: Download SiteIniPack
