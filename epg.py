@@ -4,6 +4,7 @@ from datetime import datetime
 import pytz
 import sys
 import time
+import gzip
 
 # =========================================
 # CONFIG
@@ -11,6 +12,10 @@ import time
 
 BASE_SITE = "https://content.astro.com.my"
 tz = pytz.timezone("Asia/Kuala_Lumpur")
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0"
+}
 
 CHANNEL_SLUGS = [
 "KUDADA-599","TV1-HD-395","TV2-HD-396","TV3-106","Astro-Ria-193","Astro-Prima-316",
@@ -54,7 +59,7 @@ CHANNEL_SLUGS = [
 # =========================================
 
 def get_build_id():
-    r = requests.get(f"{BASE_SITE}/channels")
+    r = requests.get(f"{BASE_SITE}/channels", headers=HEADERS)
     r.raise_for_status()
     match = re.search(r'"buildId":"(.*?)"', r.text)
     if not match:
@@ -64,7 +69,7 @@ def get_build_id():
 
 def fetch_channel(build_id, slug):
     url = f"{BASE_SITE}/_next/data/{build_id}/channels/{slug}.json?channelId={slug}"
-    r = requests.get(url)
+    r = requests.get(url, headers=HEADERS)
     if r.status_code == 404:
         return None
     r.raise_for_status()
@@ -105,7 +110,6 @@ def generate_epg():
                 print("  -> No schedule (Skipped)")
                 continue
 
-            # Guide Number
             channel_number = details.get("stbNumber")
             fallback_id = details.get("id")
 
@@ -117,9 +121,6 @@ def generate_epg():
             channel_name = details.get("title", slug)
             logo_url = details.get("imageUrl")
 
-            # =============================
-            # STORE CHANNEL BLOCK
-            # =============================
             block = []
             block.append(f'  <channel id="{channel_id}">')
             block.append(f'    <display-name>{channel_name}</display-name>')
@@ -129,33 +130,33 @@ def generate_epg():
 
             channel_blocks.append("\n".join(block))
 
-            # =============================
-            # STORE PROGRAMMES
-            # =============================
             channel_programmes = 0
 
             for day, programmes in schedule.items():
                 for prog in programmes:
+
                     start = format_time(prog["eventStartMyt"])
                     end = format_time(prog["eventEndMyt"])
+
                     title = prog.get("title", "No Title")
                     desc = prog.get("description", "")
-                    
+
                     land = prog.get("landscapeImage")
-                    img  = prog.get("imageUrl")
+                    img = prog.get("imageUrl")
                     image = land if land else img
 
                     prog_block = []
                     prog_block.append(
                         f'  <programme start="{start}" stop="{end}" channel="{channel_id}">'
                     )
+
                     prog_block.append(f'    <title>{title}</title>')
 
                     if desc:
                         prog_block.append(f'    <desc>{desc}</desc>')
-                        
+
                     if image:
-                        prog_block.append(f'    <icon src="{image}"/>')    
+                        prog_block.append(f'    <icon src="{image}"/>')
 
                     prog_block.append('  </programme>')
 
@@ -167,38 +168,42 @@ def generate_epg():
             processed_channels += 1
             print(f"  -> OK ({channel_programmes} programmes)")
 
-            time.sleep(0.1)
+            time.sleep(0.03)
 
         except Exception as e:
             print("  -> ERROR:", e)
 
-    # =============================
-    # WRITE FILE
-    # =============================
+    # WRITE XML
     with open("astro.xml", "w", encoding="utf-8") as f:
 
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write('<tv>\n\n')
 
-        # 🔥 SEMUA CHANNEL DULU
         for block in channel_blocks:
             f.write(block + "\n")
 
         f.write("\n")
 
-        # 🔥 BARU SEMUA PROGRAMME
         for block in programme_blocks:
             f.write(block + "\n")
 
         f.write('</tv>\n')
 
+    print("XML generated")
+
+    # CREATE GZIP
+    with open("astro.xml", "rb") as f_in:
+        with gzip.open("astro.xml.gz", "wb") as f_out:
+            f_out.writelines(f_in)
+
+    print("GZIP generated")
+
     print("\n=================================")
     print("Channels processed:", processed_channels)
     print("Total programmes:", total_programmes)
-    print("File: epg.xml")
+    print("Files: astro.xml , astro.xml.gz")
 
 # =========================================
 
 if __name__ == "__main__":
     generate_epg()
-
