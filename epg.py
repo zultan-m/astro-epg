@@ -168,7 +168,7 @@ def generate_epg():
     # =============================
     # WRITE FILE
     # =============================
-    with open("epg.xml", "w", encoding="utf-8") as f:
+    with open("astro.xml", "w", encoding="utf-8") as f:
 
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write('<tv>\n\n')
@@ -194,4 +194,5 @@ def generate_epg():
 
 if __name__ == "__main__":
     generate_epg()
+
 
