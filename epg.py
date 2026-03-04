@@ -123,7 +123,7 @@ def generate_epg():
 
             block = []
             block.append(f'  <channel id="{channel_id}">')
-            block.append(f'    <display-name>{channel_name}</display-name>')
+            block.append(f'    <display-name lang="en">{channel_name}</display-name>')
             if logo_url:
                 block.append(f'    <icon src="{logo_url}" />')
             block.append('  </channel>')
@@ -150,10 +150,10 @@ def generate_epg():
                         f'  <programme start="{start}" stop="{end}" channel="{channel_id}">'
                     )
 
-                    prog_block.append(f'    <title>{title}</title>')
+                    prog_block.append(f'    <title lang="en">{title}</title>')
 
                     if desc:
-                        prog_block.append(f'    <desc>{desc}</desc>')
+                        prog_block.append(f'    <desc lang="en">{desc}</desc>')
 
                     if image:
                         prog_block.append(f'    <icon src="{image}"/>')
