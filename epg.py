@@ -177,7 +177,7 @@ def generate_epg():
     with open("astro.xml", "w", encoding="utf-8") as f:
 
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write('<tv>\n\n')
+        f.write('<tv generator-info-name="AstroEPG" generator-info-url="https://content.astro.com.my">\n\n')
 
         for block in channel_blocks:
             f.write(block + "\n")
