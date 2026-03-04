@@ -5,6 +5,7 @@ import pytz
 import sys
 import time
 import gzip
+import html
 
 # =========================================
 # CONFIG
@@ -138,8 +139,8 @@ def generate_epg():
                     start = format_time(prog["eventStartMyt"])
                     end = format_time(prog["eventEndMyt"])
 
-                    title = prog.get("title", "No Title")
-                    desc = prog.get("description", "")
+                    title =  html.escape(prog.get("title", "No Title"))
+                    desc = html.escape(prog.get("description", ""))
 
                     land = prog.get("landscapeImage")
                     img = prog.get("imageUrl")
