@@ -140,6 +140,10 @@ def generate_epg():
                     end = format_time(prog["eventEndMyt"])
                     title = prog.get("title", "No Title")
                     desc = prog.get("description", "")
+                    
+                    land = prog.get("landscapeImage")
+                    img  = prog.get("imageUrl")
+                    image = land if land else img
 
                     prog_block = []
                     prog_block.append(
@@ -149,6 +153,9 @@ def generate_epg():
 
                     if desc:
                         prog_block.append(f'    <desc>{desc}</desc>')
+                        
+                    if image:
+                        prog_block.append(f'    <icon src="{image}"/>')    
 
                     prog_block.append('  </programme>')
 
@@ -194,5 +201,4 @@ def generate_epg():
 
 if __name__ == "__main__":
     generate_epg()
-
 
