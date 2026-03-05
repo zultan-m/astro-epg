@@ -79,7 +79,7 @@ def fetch_channel(build_id, slug):
 def format_time(dt_str):
     dt = datetime.fromisoformat(dt_str.replace("+08:00", ""))
     dt = tz.localize(dt)
-    return dt.strftime("%Y%m%d%H%M%S+0800")
+    return dt.strftime("%Y%m%d%H%M%S +0800")
 
 # =========================================
 
