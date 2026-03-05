@@ -125,6 +125,7 @@ def generate_epg():
             block = []
             block.append(f'  <channel id="{channel_id}">')
             block.append(f'    <display-name lang="en">{channel_name}</display-name>')
+            block.append(f'    <display-name lang="en">{channel_number}</display-name>')
             if logo_url:
                 block.append(f'    <icon src="{logo_url}" />')
             block.append('  </channel>')
