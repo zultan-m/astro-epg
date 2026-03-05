@@ -11,28 +11,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           pip install requests pytz
 
-      - name: Run EPG generator
+      - name: Generate EPG
         run: |
           python epg.py || python epg.py
 
-      - name: Compress EPG (max compression)
+      - name: Compress EPG (max)
         run: |
-          gzip -9 -c astro.xml > astro.xml.gz
+          gzip -9 -f astro.xml
 
-      - name: Commit and push
+      - name: Commit changes
         run: |
           git config --global user.name "epg-bot"
           git config --global user.email "actions@github.com"
