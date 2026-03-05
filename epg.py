@@ -119,7 +119,8 @@ def generate_epg():
             else:
                 channel_id = f"{fallback_id}.astro"
 
-            channel_name = details.get("title", slug)
+            import html
+            channel_name = html.escape(details.get("title", slug))
             logo_url = details.get("imageUrl")
 
             block = []
@@ -209,3 +210,4 @@ def generate_epg():
 
 if __name__ == "__main__":
     generate_epg()
+
