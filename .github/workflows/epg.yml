@@ -1,55 +1,47 @@
-# ===== MERGE FUNCTION START =====
-import os
-import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
-import pytz
+name: Generate Astro EPG
 
+on:
+  schedule:
+    - cron: '59 15 * * *'   # 11:59PM Malaysia (UTC+8)
+  workflow_dispatch:
 
-def merge_with_old(new_file="astro.xml"):
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-    if not os.path.exists("astro_old.xml"):
-        return
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    tz = pytz.timezone("Asia/Kuala_Lumpur")
-    now = datetime.now(tz)
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
 
-    past_cutoff = now - timedelta(days=7)
-    future_limit = now + timedelta(days=14)
+      - name: Install dependencies
+        run: |
+          pip install requests pytz
 
-    old_tree = ET.parse("astro_old.xml")
-    old_root = old_tree.getroot()
+      - name: Extract old EPG
+        run: |
+          if [ -f astro.xml.gz ]; then
+            gunzip -f astro.xml.gz
+            mv astro.xml astro_old.xml
+          fi
 
-    new_tree = ET.parse(new_file)
-    new_root = new_tree.getroot()
+      - name: Generate EPG
+        run: |
+          python epg.py
 
-    programme_dict = {}
+      - name: Compress EPG
+        run: |
+          gzip -9 -f astro.xml
 
-    for prog in new_root.findall("programme"):
-        key = (prog.get("channel"), prog.get("start"))
-        programme_dict[key] = prog
+      - name: Commit changes
+        run: |
+          git config --global user.name "epg-bot"
+          git config --global user.email "actions@github.com"
 
-    for prog in old_root.findall("programme"):
-
-        start_raw = prog.get("start")[:14]
-        dt = datetime.strptime(start_raw, "%Y%m%d%H%M%S")
-        dt = tz.localize(dt)
-
-        key = (prog.get("channel"), prog.get("start"))
-
-        if past_cutoff <= dt <= future_limit:
-            if key not in programme_dict:
-                programme_dict[key] = prog
-
-    for prog in list(new_root.findall("programme")):
-        new_root.remove(prog)
-
-    sorted_programmes = sorted(
-        programme_dict.values(),
-        key=lambda p: (p.get("channel"), p.get("start"))
-    )
-
-    for prog in sorted_programmes:
-        new_root.append(prog)
-
-    new_tree.write(new_file, encoding="utf-8", xml_declaration=True)
-# ===== MERGE FUNCTION END =====
+          git add astro.xml.gz
+          git diff --cached --quiet || git commit -m "Auto update EPG"
+          git push
