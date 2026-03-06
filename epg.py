@@ -7,8 +7,10 @@ import shutil
 import os
 import html
 import pytz
+import logging
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # =========================================
 # CONFIG
@@ -17,6 +19,10 @@ from datetime import datetime, timedelta
 BASE_SITE = "https://content.astro.com.my"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 tz = pytz.timezone("Asia/Kuala_Lumpur")
+
+TEMP_FILE = "astro_new.xml"
+FINAL_FILE = "astro.xml"
+OLD_FILE = "astro_old.xml"
 
 CHANNEL_SLUGS = [
 "KUDADA-599","TV1-HD-395","TV2-HD-396","TV3-106","Astro-Ria-193","Astro-Prima-316",
@@ -58,22 +64,51 @@ CHANNEL_SLUGS = [
 ]
 
 # =========================================
+# LOGGING SETUP
+# =========================================
+
+logging.basicConfig(
+    filename="epg.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+# =========================================
+# SAFE REQUEST (Retry)
+# =========================================
+
+def safe_request(url, retries=3):
+    for _ in range(retries):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10)
+            if r.status_code == 404:
+                return None
+            r.raise_for_status()
+            return r
+        except Exception as e:
+            logging.warning(f"Retrying request: {url}")
+            time.sleep(1)
+    logging.error(f"Failed request: {url}")
+    return None
+
 
 def get_build_id():
-    r = requests.get(f"{BASE_SITE}/channels", headers=HEADERS, timeout=10)
-    r.raise_for_status()
+    r = safe_request(f"{BASE_SITE}/channels")
+    if not r:
+        sys.exit("Failed to get build ID")
     match = re.search(r'"buildId":"(.*?)"', r.text)
     if not match:
         sys.exit("Build ID not found")
+    logging.info(f"Build ID: {match.group(1)}")
     return match.group(1)
 
 
 def fetch_channel(build_id, slug):
     url = f"{BASE_SITE}/_next/data/{build_id}/channels/{slug}.json?channelId={slug}"
-    r = requests.get(url, headers=HEADERS, timeout=10)
-    if r.status_code == 404:
+    r = safe_request(url)
+    if not r:
+        logging.warning(f"Skipped channel: {slug}")
         return None
-    r.raise_for_status()
     return r.json()
 
 
@@ -82,87 +117,95 @@ def format_time(dt_str):
     dt = dt.astimezone(tz)
     return dt.strftime("%Y%m%d%H%M%S %z")
 
+# =========================================
+# PROCESS ONE CHANNEL (THREAD WORKER)
+# =========================================
+
+def process_slug(build_id, slug):
+    try:
+        data = fetch_channel(build_id, slug)
+        if not data:
+            return None
+
+        details = data.get("pageProps", {}).get("channelDetails", {})
+        schedule = details.get("schedule", {})
+
+        if not schedule:
+            logging.info(f"No schedule: {slug}")
+            return None
+
+        channel_number = details.get("stbNumber")
+        fallback_id = details.get("id")
+        channel_id = f"{channel_number or fallback_id}.astro"
+
+        channel_name = html.escape(details.get("title", slug))
+        logo_url = details.get("imageUrl")
+
+        channel_block = [
+            f'  <channel id="{channel_id}">',
+            f'    <display-name lang="en">{channel_name}</display-name>'
+        ]
+
+        if channel_number:
+            channel_block.append(f'    <display-name lang="en">{channel_number}</display-name>')
+
+        if logo_url:
+            channel_block.append(f'    <icon src="{logo_url}" />')
+
+        channel_block.append("  </channel>")
+
+        programme_blocks = []
+
+        for day, programmes in schedule.items():
+            for prog in programmes:
+
+                start = format_time(prog["eventStartMyt"])
+                end = format_time(prog["eventEndMyt"])
+
+                title = html.escape(prog.get("title", "No Title"))
+                desc = html.escape(prog.get("description", ""))
+
+                prog_block = [
+                    f'  <programme start="{start}" stop="{end}" channel="{channel_id}">',
+                    f'    <title lang="en">{title}</title>'
+                ]
+
+                if desc:
+                    prog_block.append(f'    <desc lang="en">{desc}</desc>')
+
+                prog_block.append("  </programme>")
+
+                programme_blocks.append("\n".join(prog_block))
+
+        logging.info(f"OK: {slug}")
+        return ("\n".join(channel_block), programme_blocks)
+
+    except Exception as e:
+        logging.error(f"Error processing {slug}: {e}")
+        return None
 
 # =========================================
-# GENERATE EPG
+# GENERATE EPG (PARALLEL)
 # =========================================
 
 def generate_epg():
 
     build_id = get_build_id()
-    print("Build ID:", build_id)
 
     channel_blocks = []
     programme_blocks = []
 
-    for slug in CHANNEL_SLUGS:
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        futures = [executor.submit(process_slug, build_id, slug) for slug in CHANNEL_SLUGS]
 
-        print("Processing:", slug)
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                channel_block, progs = result
+                channel_blocks.append(channel_block)
+                programme_blocks.extend(progs)
 
-        try:
-            data = fetch_channel(build_id, slug)
-            if not data:
-                continue
-
-            details = data.get("pageProps", {}).get("channelDetails", {})
-            schedule = details.get("schedule", {})
-
-            if not schedule:
-                continue
-
-            channel_number = details.get("stbNumber")
-            fallback_id = details.get("id")
-            channel_id = f"{channel_number or fallback_id}.astro"
-
-            channel_name = html.escape(details.get("title", slug))
-            logo_url = details.get("imageUrl")
-
-            block = [
-                f'  <channel id="{channel_id}">',
-                f'    <display-name lang="en">{channel_name}</display-name>'
-            ]
-
-            if channel_number:
-                block.append(f'    <display-name lang="en">{channel_number}</display-name>')
-
-            if logo_url:
-                block.append(f'    <icon src="{logo_url}" />')
-
-            block.append("  </channel>")
-            channel_blocks.append("\n".join(block))
-
-            for day, programmes in schedule.items():
-                for prog in programmes:
-
-                    start = format_time(prog["eventStartMyt"])
-                    end = format_time(prog["eventEndMyt"])
-
-                    title = html.escape(prog.get("title", "No Title"))
-                    desc = html.escape(prog.get("description", ""))
-
-                    image = prog.get("landscapeImage") or prog.get("imageUrl")
-
-                    prog_block = [
-                        f'  <programme start="{start}" stop="{end}" channel="{channel_id}">',
-                        f'    <title lang="en">{title}</title>'
-                    ]
-
-                    if desc:
-                        prog_block.append(f'    <desc lang="en">{desc}</desc>')
-
-                    if image:
-                        prog_block.append(f'    <icon src="{image}"/>')
-
-                    prog_block.append("  </programme>")
-
-                    programme_blocks.append("\n".join(prog_block))
-
-            time.sleep(0.02)
-
-        except Exception as e:
-            print("Error:", e)
-
-    with open("astro.xml", "w", encoding="utf-8") as f:
+    with open(TEMP_FILE, "w", encoding="utf-8") as f:
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
         f.write('<tv generator-info-name="AstroEPG">\n\n')
 
@@ -176,57 +219,7 @@ def generate_epg():
 
         f.write("</tv>\n")
 
-    print("XML generated")
-
-
-# =========================================
-# MERGE (3 days past + 7 days future)
-# =========================================
-
-def merge_with_old():
-
-    if not os.path.exists("astro_old.xml"):
-        print("First run. No old file to merge.")
-        return
-
-    now = datetime.now(tz)
-    past_cutoff = now - timedelta(days=3)
-    future_limit = now + timedelta(days=7)
-
-    old_tree = ET.parse("astro_old.xml")
-    old_root = old_tree.getroot()
-
-    new_tree = ET.parse("astro.xml")
-    new_root = new_tree.getroot()
-
-    programme_dict = {}
-
-    for root in [new_root, old_root]:
-        for prog in root.findall("programme"):
-
-            start_raw = prog.get("start")[:14]
-            dt = datetime.strptime(start_raw, "%Y%m%d%H%M%S")
-            dt = tz.localize(dt)
-
-            if past_cutoff <= dt <= future_limit:
-                key = (prog.get("channel"), prog.get("start"))
-                programme_dict[key] = prog
-
-    for prog in list(new_root.findall("programme")):
-        new_root.remove(prog)
-
-    sorted_programmes = sorted(
-        programme_dict.values(),
-        key=lambda p: (p.get("channel"), p.get("start"))
-    )
-
-    for prog in sorted_programmes:
-        new_root.append(prog)
-
-    new_tree.write("astro.xml", encoding="utf-8", xml_declaration=True)
-
-    print("Merge complete (3 days past + 7 days future)")
-
+    logging.info("Temp XML generated")
 
 # =========================================
 # MAIN
@@ -234,17 +227,21 @@ def merge_with_old():
 
 if __name__ == "__main__":
 
-    # Backup old file if exists
-    if os.path.exists("astro.xml"):
-        os.replace("astro.xml", "astro_old.xml")
+    if os.path.exists(FINAL_FILE):
+        os.replace(FINAL_FILE, OLD_FILE)
 
     generate_epg()
-    merge_with_old()
 
-    # Create gzip
-    with open("astro.xml", "rb") as f_in:
-        with gzip.open("astro.xml.gz", "wb") as f_out:
+    try:
+        ET.parse(TEMP_FILE)
+    except:
+        logging.error("XML corrupted. Abort.")
+        sys.exit(1)
+
+    os.replace(TEMP_FILE, FINAL_FILE)
+
+    with open(FINAL_FILE, "rb") as f_in:
+        with gzip.open(FINAL_FILE + ".gz", "wb") as f_out:
             shutil.copyfileobj(f_in, f_out)
 
-    print("GZIP created")
-    print("Done.")
+    logging.info("EPG Updated Successfully")
