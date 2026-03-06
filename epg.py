@@ -1,22 +1,22 @@
 import requests
 import re
-from datetime import datetime
-import pytz
 import sys
 import time
 import gzip
+import shutil
+import os
 import html
+import pytz
+import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta
 
 # =========================================
 # CONFIG
 # =========================================
 
 BASE_SITE = "https://content.astro.com.my"
+HEADERS = {"User-Agent": "Mozilla/5.0"}
 tz = pytz.timezone("Asia/Kuala_Lumpur")
-
-HEADERS = {
-    "User-Agent": "Mozilla/5.0"
-}
 
 CHANNEL_SLUGS = [
 "KUDADA-599","TV1-HD-395","TV2-HD-396","TV3-106","Astro-Ria-193","Astro-Prima-316",
@@ -60,36 +60,37 @@ CHANNEL_SLUGS = [
 # =========================================
 
 def get_build_id():
-    r = requests.get(f"{BASE_SITE}/channels", headers=HEADERS)
+    r = requests.get(f"{BASE_SITE}/channels", headers=HEADERS, timeout=10)
     r.raise_for_status()
     match = re.search(r'"buildId":"(.*?)"', r.text)
     if not match:
-        print("Build ID not found")
-        sys.exit(1)
+        sys.exit("Build ID not found")
     return match.group(1)
+
 
 def fetch_channel(build_id, slug):
     url = f"{BASE_SITE}/_next/data/{build_id}/channels/{slug}.json?channelId={slug}"
-    r = requests.get(url, headers=HEADERS)
+    r = requests.get(url, headers=HEADERS, timeout=10)
     if r.status_code == 404:
         return None
     r.raise_for_status()
     return r.json()
 
-def format_time(dt_str):
-    dt = datetime.fromisoformat(dt_str.replace("+08:00", ""))
-    dt = tz.localize(dt)
-    return dt.strftime("%Y%m%d%H%M%S +0800")
 
+def format_time(dt_str):
+    dt = datetime.fromisoformat(dt_str)
+    dt = dt.astimezone(tz)
+    return dt.strftime("%Y%m%d%H%M%S %z")
+
+
+# =========================================
+# GENERATE EPG
 # =========================================
 
 def generate_epg():
 
     build_id = get_build_id()
     print("Build ID:", build_id)
-
-    total_programmes = 0
-    processed_channels = 0
 
     channel_blocks = []
     programme_blocks = []
@@ -101,39 +102,34 @@ def generate_epg():
         try:
             data = fetch_channel(build_id, slug)
             if not data:
-                print("  -> 404 Skipped")
                 continue
 
             details = data.get("pageProps", {}).get("channelDetails", {})
             schedule = details.get("schedule", {})
 
             if not schedule:
-                print("  -> No schedule (Skipped)")
                 continue
 
             channel_number = details.get("stbNumber")
             fallback_id = details.get("id")
+            channel_id = f"{channel_number or fallback_id}.astro"
 
-            if channel_number:
-                channel_id = f"{channel_number}.astro"
-            else:
-                channel_id = f"{fallback_id}.astro"
-
-            import html
             channel_name = html.escape(details.get("title", slug))
             logo_url = details.get("imageUrl")
 
-            block = []
-            block.append(f'  <channel id="{channel_id}">')
-            block.append(f'    <display-name lang="en">{channel_name}</display-name>')
-            block.append(f'    <display-name lang="en">{channel_number}</display-name>')
+            block = [
+                f'  <channel id="{channel_id}">',
+                f'    <display-name lang="en">{channel_name}</display-name>'
+            ]
+
+            if channel_number:
+                block.append(f'    <display-name lang="en">{channel_number}</display-name>')
+
             if logo_url:
                 block.append(f'    <icon src="{logo_url}" />')
-            block.append('  </channel>')
 
+            block.append("  </channel>")
             channel_blocks.append("\n".join(block))
-
-            channel_programmes = 0
 
             for day, programmes in schedule.items():
                 for prog in programmes:
@@ -141,19 +137,15 @@ def generate_epg():
                     start = format_time(prog["eventStartMyt"])
                     end = format_time(prog["eventEndMyt"])
 
-                    title =  html.escape(prog.get("title", "No Title"))
+                    title = html.escape(prog.get("title", "No Title"))
                     desc = html.escape(prog.get("description", ""))
 
-                    land = prog.get("landscapeImage")
-                    img = prog.get("imageUrl")
-                    image = land if land else img
+                    image = prog.get("landscapeImage") or prog.get("imageUrl")
 
-                    prog_block = []
-                    prog_block.append(
-                        f'  <programme start="{start}" stop="{end}" channel="{channel_id}">'
-                    )
-
-                    prog_block.append(f'    <title lang="en">{title}</title>')
+                    prog_block = [
+                        f'  <programme start="{start}" stop="{end}" channel="{channel_id}">',
+                        f'    <title lang="en">{title}</title>'
+                    ]
 
                     if desc:
                         prog_block.append(f'    <desc lang="en">{desc}</desc>')
@@ -161,26 +153,18 @@ def generate_epg():
                     if image:
                         prog_block.append(f'    <icon src="{image}"/>')
 
-                    prog_block.append('  </programme>')
+                    prog_block.append("  </programme>")
 
                     programme_blocks.append("\n".join(prog_block))
 
-                    total_programmes += 1
-                    channel_programmes += 1
-
-            processed_channels += 1
-            print(f"  -> OK ({channel_programmes} programmes)")
-
-            time.sleep(0.03)
+            time.sleep(0.02)
 
         except Exception as e:
-            print("  -> ERROR:", e)
+            print("Error:", e)
 
-    # WRITE XML
     with open("astro.xml", "w", encoding="utf-8") as f:
-
         f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-        f.write('<tv generator-info-name="AstroEPG" generator-info-url="https://content.astro.com.my">\n\n')
+        f.write('<tv generator-info-name="AstroEPG">\n\n')
 
         for block in channel_blocks:
             f.write(block + "\n")
@@ -190,24 +174,77 @@ def generate_epg():
         for block in programme_blocks:
             f.write(block + "\n")
 
-        f.write('</tv>\n')
+        f.write("</tv>\n")
 
     print("XML generated")
 
-    # CREATE GZIP
-    with open("astro.xml", "rb") as f_in:
-        with gzip.open("astro.xml.gz", "wb") as f_out:
-            f_out.writelines(f_in)
 
-    print("GZIP generated")
+# =========================================
+# MERGE (3 days past + 7 days future)
+# =========================================
 
-    print("\n=================================")
-    print("Channels processed:", processed_channels)
-    print("Total programmes:", total_programmes)
-    print("Files: astro.xml , astro.xml.gz")
+def merge_with_old():
 
+    if not os.path.exists("astro_old.xml"):
+        print("First run. No old file to merge.")
+        return
+
+    now = datetime.now(tz)
+    past_cutoff = now - timedelta(days=3)
+    future_limit = now + timedelta(days=7)
+
+    old_tree = ET.parse("astro_old.xml")
+    old_root = old_tree.getroot()
+
+    new_tree = ET.parse("astro.xml")
+    new_root = new_tree.getroot()
+
+    programme_dict = {}
+
+    for root in [new_root, old_root]:
+        for prog in root.findall("programme"):
+
+            start_raw = prog.get("start")[:14]
+            dt = datetime.strptime(start_raw, "%Y%m%d%H%M%S")
+            dt = tz.localize(dt)
+
+            if past_cutoff <= dt <= future_limit:
+                key = (prog.get("channel"), prog.get("start"))
+                programme_dict[key] = prog
+
+    for prog in list(new_root.findall("programme")):
+        new_root.remove(prog)
+
+    sorted_programmes = sorted(
+        programme_dict.values(),
+        key=lambda p: (p.get("channel"), p.get("start"))
+    )
+
+    for prog in sorted_programmes:
+        new_root.append(prog)
+
+    new_tree.write("astro.xml", encoding="utf-8", xml_declaration=True)
+
+    print("Merge complete (3 days past + 7 days future)")
+
+
+# =========================================
+# MAIN
 # =========================================
 
 if __name__ == "__main__":
-    generate_epg()
 
+    # Backup old file if exists
+    if os.path.exists("astro.xml"):
+        os.replace("astro.xml", "astro_old.xml")
+
+    generate_epg()
+    merge_with_old()
+
+    # Create gzip
+    with open("astro.xml", "rb") as f_in:
+        with gzip.open("astro.xml.gz", "wb") as f_out:
+            shutil.copyfileobj(f_in, f_out)
+
+    print("GZIP created")
+    print("Done.")
