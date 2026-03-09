@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate EPG
         run: |
-          python epg.py
+          python epg.py 2>&1 | tee -a epg.log
 
       - name: Compress EPG
         run: |
@@ -42,6 +42,6 @@ jobs:
           git config --global user.name "epg-bot"
           git config --global user.email "actions@github.com"
 
-          git add astro.xml.gz
-          git diff --cached --quiet || git commit -m "Auto update EPG"
+          git add astro.xml.gz epg.log
+          git diff --cached --quiet || git commit -m "Auto update EPG & log"
           git push
