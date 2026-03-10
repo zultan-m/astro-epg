@@ -1,14 +1,9 @@
-name: Generate Astro EPG PRO
+name: Generate Astro EPG
 
 on:
   schedule:
     - cron: '5 22 * * *'   # 6:05AM Malaysia (UTC+8)
   workflow_dispatch:
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
 
 jobs:
   build:
@@ -24,58 +19,29 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests pytz
-
-      # ===== ROTATE LOG =====
-      - name: Prepare log file (dated)
         run: |
-          TODAY=$(date +'%Y-%m-%d')
-          LOGFILE="epg-$TODAY.log"
-          echo "LOGFILE=$LOGFILE" >> $GITHUB_ENV
+          pip install requests pytz
 
-      # ===== GENERATE EPG =====
+      - name: Extract old EPG
+        run: |
+          if [ -f astro.xml.gz ]; then
+            gunzip -f astro.xml.gz
+            mv astro.xml astro_old.xml
+          fi
+
       - name: Generate EPG
         run: |
-          python epg.py 2>&1 | tee -a $LOGFILE
+          python epg.py 2>&1 | tee -a epg.log
 
-      # ===== COMPRESS (KEEP XML) =====
-      - name: Compress EPG
+      - name: Compress EPG (keep original)
         run: |
           gzip -9 -c astro.xml > astro.xml.gz
 
-      # ===== DELETE OLD BIG LOGS (>5MB) =====
-      - name: Cleanup large logs
-        run: |
-          find . -name "epg-*.log" -size +5M -delete
-
-      # ===== COMMIT =====
       - name: Commit changes
         run: |
-    git config --global user.name "epg-bot"
-    git config --global user.email "actions@github.com"
+          git config --global user.name "epg-bot"
+          git config --global user.email "actions@github.com"
 
-    git pull origin main --rebase
-
-    git add astro.xml astro.xml.gz epg-*.log
-    git commit -m "Auto update EPG $(date +'%Y-%m-%d')" || echo "Nothing to commit"
-
-    git push origin main
-
-      # ===== AUTO TAG RELEASE =====
-      - name: Create Tag
-        run: |
-          TAG="v$(date +'%Y%m%d-%H%M')"
-          git tag $TAG
-          git push origin $TAG
-
-      # ===== DEPLOY TO GITHUB PAGES =====
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+          git add astro.xml astro.xml.gz epg.log
+          git diff --cached --quiet || git commit -m "Auto update EPG, XML, GZ & log"
+          git push
