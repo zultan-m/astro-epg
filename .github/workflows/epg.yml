@@ -51,12 +51,15 @@ jobs:
       # ===== COMMIT =====
       - name: Commit changes
         run: |
-          git config --global user.name "epg-bot"
-          git config --global user.email "actions@github.com"
+    git config --global user.name "epg-bot"
+    git config --global user.email "actions@github.com"
 
-          git add astro.xml astro.xml.gz epg-*.log
-          git commit -m "Auto update EPG $(date +'%Y-%m-%d')" || echo "Nothing to commit"
-          git push
+    git pull origin main --rebase
+
+    git add astro.xml astro.xml.gz epg-*.log
+    git commit -m "Auto update EPG $(date +'%Y-%m-%d')" || echo "Nothing to commit"
+
+    git push origin main
 
       # ===== AUTO TAG RELEASE =====
       - name: Create Tag
