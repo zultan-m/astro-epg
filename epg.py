@@ -24,6 +24,10 @@ TEMP_FILE = "astro_new.xml"
 FINAL_FILE = "astro.xml"
 OLD_FILE = "astro_old.xml"
 
+# 🔥 RANGE SETTING (7 hari sebelum + 7 hari selepas)
+DAYS_BEFORE = 7
+DAYS_AFTER = 7
+
 CHANNEL_SLUGS = [
 "KUDADA-599","TV1-HD-395","TV2-HD-396","TV3-106","Astro-Ria-193","Astro-Prima-316",
 "Astro-Oasis-315","Astro-Citra-301","Astro-Rania-401","Astro-Aura-400","Al-Hijrah-149",
@@ -40,31 +44,37 @@ CHANNEL_SLUGS = [
 "Astro-Showcase-454","Rock-Action-601","Rock-X-Stream-605","tvN-Movies-HD-274",
 "Astro-Awani-HD-436","Bernama-TV-160","CGTN-HD-426","CNN-HD-336","BBC-News-HD-366",
 "Al-Jazeera-English-HD-374","CNA-HD-295","CNBC-Asia-HD-423","Bloomberg-TV-HD-422",
-"ABC-Australia-HD-461","DW-English-287",
-"France24-289","Love-Nature-4K-472","Love-Nature-483","Discovery-Channel-HD-376",
-"Discovery-Asia-HD-136","BBC-Earth-452","History-HD-144","CGTN-Documentary-587",
-"Astro-Tutor-TV-411","Astro-Ceria-386","Cartoon-Network-HD-371","Nickelodeon-HD-370",
-"Nick-Jr-392","Moonbug-465","Blippi-and-Friends-566","CBeebies-481","AXN-HD-131",
-"HITS-NOW-524","Lifetime-HD-447","HITS-HD-179","TLC-HD-338","Asian-Food-Network-HD-91",
-"Crime-and-Investigation-HD-369","HGTV-HD-198","BBC-Lifestyle-HD-451","Astro-Arena-235",
-"Astro-Arena-2-457","Arena-Bola-486","Arena-Bola-2-487","Astro-Sports-UHD-805-308",
-"Astro-Premier-League-4-568","Astro-Premier-League-5-570","Astro-Grandstand-543",
-"Astro-Premier-League-536","Astro-Premier-League-2-537","Astro-Premier-League-3-538",
-"Astro-Football-539","Astro-Badminton-540","Astro-Badminton-2-541","Astro-Sports-Plus-542",
-"beIN-SPORTS-1-236","beIN-SPORTS-2-466","beIN-SPORTS-3-313","W-Sport-503",
-"Astro-Golf-189","Astro-Cricket-197","Premier-Sports-Rugby-393","Astro-First-HD-175",
-"Astro-First-HD-148","Astro-First-HD-146","Astro-First-HD-152","Astro-First-HD-238",
-"Astro-First-HD-173","Astro-First-HD-125","Astro-First-HD-174","Astro-First-HD-242",
-"Astro-First-HD-265","Astro-First-HD-142","Astro-First-HD-404","Astro-First-HD-413",
-"Astro-First-HD-150","Astro-First-HD-416","Astro-First-HD-240","HITZ-FM-17","MY-FM-15","LITE-FM-19","MIX-FM-18","ERA-FM-14",
-"SINAR-FM-26","MELODY-FM-28","THR-RAAGA-30","CLASSIC-ROCK-20","GOLD-21",
-"OPUS-16","THR-GEGAR-22","INDIA-BEAT-23","JAZZ-24","OSAI-27","BAYU-31",
-"KENYALANG-32","ZAYAN-292","GOXUAN-293","BBC-First-HD-458",
-"Smithsonian-Channel-394","BBC-Brit-HD-459"
+"ABC-Australia-HD-461","DW-English-287","France24-289","Love-Nature-4K-472",
+"Love-Nature-483","Discovery-Channel-HD-376","Discovery-Asia-HD-136",
+"BBC-Earth-452","History-HD-144","CGTN-Documentary-587","Astro-Tutor-TV-411",
+"Astro-Ceria-386","Cartoon-Network-HD-371","Nickelodeon-HD-370","Nick-Jr-392",
+"Moonbug-465","Blippi-and-Friends-566","CBeebies-481","AXN-HD-131","HITS-NOW-524",
+"Lifetime-HD-447","HITS-HD-179","TLC-HD-338","Asian-Food-Network-HD-91",
+"Crime-and-Investigation-HD-369","HGTV-HD-198","BBC-Lifestyle-HD-451",
+"Astro-Arena-235","Astro-Arena-2-457","Arena-Bola-486","Arena-Bola-2-487",
+"Astro-Sports-UHD-805-308","Astro-Premier-League-4-568",
+"Astro-Premier-League-5-570","Astro-Grandstand-543",
+"Astro-Premier-League-536","Astro-Premier-League-2-537",
+"Astro-Premier-League-3-538","Astro-Football-539",
+"Astro-Badminton-540","Astro-Badminton-2-541",
+"Astro-Sports-Plus-542","beIN-SPORTS-1-236",
+"beIN-SPORTS-2-466","beIN-SPORTS-3-313","W-Sport-503",
+"Astro-Golf-189","Astro-Cricket-197","Premier-Sports-Rugby-393",
+"Astro-First-HD-175","Astro-First-HD-148","Astro-First-HD-146",
+"Astro-First-HD-152","Astro-First-HD-238","Astro-First-HD-173",
+"Astro-First-HD-125","Astro-First-HD-174","Astro-First-HD-242",
+"Astro-First-HD-265","Astro-First-HD-142","Astro-First-HD-404",
+"Astro-First-HD-413","Astro-First-HD-150","Astro-First-HD-416",
+"Astro-First-HD-240","HITZ-FM-17","MY-FM-15","LITE-FM-19",
+"MIX-FM-18","ERA-FM-14","SINAR-FM-26","MELODY-FM-28",
+"THR-RAAGA-30","CLASSIC-ROCK-20","GOLD-21","OPUS-16",
+"THR-GEGAR-22","INDIA-BEAT-23","JAZZ-24","OSAI-27",
+"BAYU-31","KENYALANG-32","ZAYAN-292","GOXUAN-293",
+"BBC-First-HD-458","Smithsonian-Channel-394","BBC-Brit-HD-459"
 ]
 
 # =========================================
-# LOGGING SETUP
+# LOGGING
 # =========================================
 
 logging.basicConfig(
@@ -74,7 +84,7 @@ logging.basicConfig(
 )
 
 # =========================================
-# SAFE REQUEST (Retry)
+# SAFE REQUEST
 # =========================================
 
 def safe_request(url, retries=3):
@@ -85,8 +95,7 @@ def safe_request(url, retries=3):
                 return None
             r.raise_for_status()
             return r
-        except Exception as e:
-            logging.warning(f"Retrying request: {url}")
+        except Exception:
             time.sleep(1)
     logging.error(f"Failed request: {url}")
     return None
@@ -99,7 +108,6 @@ def get_build_id():
     match = re.search(r'"buildId":"(.*?)"', r.text)
     if not match:
         sys.exit("Build ID not found")
-    logging.info(f"Build ID: {match.group(1)}")
     return match.group(1)
 
 
@@ -107,85 +115,109 @@ def fetch_channel(build_id, slug):
     url = f"{BASE_SITE}/_next/data/{build_id}/channels/{slug}.json?channelId={slug}"
     r = safe_request(url)
     if not r:
-        logging.warning(f"Skipped channel: {slug}")
         return None
     return r.json()
 
 
-def format_time(dt_str):
-    dt = datetime.fromisoformat(dt_str)
-    dt = dt.astimezone(tz)
-    return dt.strftime("%Y%m%d%H%M%S %z")
-
 # =========================================
-# PROCESS ONE CHANNEL (THREAD WORKER)
+# PROCESS CHANNEL
 # =========================================
 
 def process_slug(build_id, slug):
-    try:
-        data = fetch_channel(build_id, slug)
-        if not data:
-            return None
 
-        details = data.get("pageProps", {}).get("channelDetails", {})
-        schedule = details.get("schedule", {})
-
-        if not schedule:
-            logging.info(f"No schedule: {slug}")
-            return None
-
-        channel_number = details.get("stbNumber")
-        fallback_id = details.get("id")
-        channel_id = f"{channel_number or fallback_id}.astro"
-
-        channel_name = html.escape(details.get("title", slug))
-        logo_url = details.get("imageUrl")
-
-        channel_block = [
-            f'  <channel id="{channel_id}">',
-            f'    <display-name lang="en">{channel_name}</display-name>'
-        ]
-
-        if channel_number:
-            channel_block.append(f'    <display-name lang="en">{channel_number}</display-name>')
-
-        if logo_url:
-            channel_block.append(f'    <icon src="{logo_url}" />')
-
-        channel_block.append("  </channel>")
-
-        programme_blocks = []
-
-        for day, programmes in schedule.items():
-            for prog in programmes:
-
-                start = format_time(prog["eventStartMyt"])
-                end = format_time(prog["eventEndMyt"])
-
-                title = html.escape(prog.get("title", "No Title"))
-                desc = html.escape(prog.get("description", ""))
-
-                prog_block = [
-                    f'  <programme start="{start}" stop="{end}" channel="{channel_id}">',
-                    f'    <title lang="en">{title}</title>'
-                ]
-
-                if desc:
-                    prog_block.append(f'    <desc lang="en">{desc}</desc>')
-
-                prog_block.append("  </programme>")
-
-                programme_blocks.append("\n".join(prog_block))
-
-        logging.info(f"OK: {slug}")
-        return ("\n".join(channel_block), programme_blocks)
-
-    except Exception as e:
-        logging.error(f"Error processing {slug}: {e}")
+    data = fetch_channel(build_id, slug)
+    if not data:
         return None
 
+    details = data.get("pageProps", {}).get("channelDetails", {})
+    schedule = details.get("schedule", {})
+
+    if not schedule:
+        return None
+
+    channel_number = details.get("stbNumber")
+    fallback_id = details.get("id")
+    channel_id = f"{channel_number or fallback_id}.astro"
+
+    channel_name = html.escape(details.get("title", slug))
+    logo_url = details.get("imageUrl")
+
+    channel_block = [
+        f'  <channel id="{channel_id}">',
+        f'    <display-name lang="en">{channel_name}</display-name>'
+    ]
+
+    if channel_number:
+        channel_block.append(f'    <display-name lang="en">{channel_number}</display-name>')
+
+    if logo_url:
+        channel_block.append(f'    <icon src="{logo_url}" />')
+
+    channel_block.append("  </channel>")
+
+    today = datetime.now(tz).date()
+    start_range = today - timedelta(days=DAYS_BEFORE)
+    end_range = today + timedelta(days=DAYS_AFTER)
+
+    seen = set()
+    programmes = []
+
+    for day, items in schedule.items():
+
+        try:
+            day_date = datetime.fromisoformat(day).date()
+        except:
+            continue
+
+        if not (start_range <= day_date <= end_range):
+            continue
+
+        for prog in items:
+
+            try:
+                start_dt = datetime.fromisoformat(prog["eventStartMyt"]).astimezone(tz)
+                end_dt = datetime.fromisoformat(prog["eventEndMyt"]).astimezone(tz)
+            except:
+                continue
+
+            key = (start_dt, prog.get("title"))
+            if key in seen:
+                continue
+
+            seen.add(key)
+
+            programmes.append({
+                "start": start_dt,
+                "end": end_dt,
+                "title": html.escape(prog.get("title", "No Title")),
+                "desc": html.escape(prog.get("description", ""))
+            })
+
+    programmes.sort(key=lambda x: x["start"])
+
+    programme_blocks = []
+
+    for p in programmes:
+
+        start = p["start"].strftime("%Y%m%d%H%M%S %z")
+        end = p["end"].strftime("%Y%m%d%H%M%S %z")
+
+        block = [
+            f'  <programme start="{start}" stop="{end}" channel="{channel_id}">',
+            f'    <title lang="en">{p["title"]}</title>'
+        ]
+
+        if p["desc"]:
+            block.append(f'    <desc lang="en">{p["desc"]}</desc>')
+
+        block.append("  </programme>")
+        programme_blocks.append("\n".join(block))
+
+    return ("\n".join(channel_block), programme_blocks)
+
+
 # =========================================
-# GENERATE EPG (PARALLEL)
+# GENERATE EPG
 # =========================================
 
 def generate_epg():
@@ -219,7 +251,6 @@ def generate_epg():
 
         f.write("</tv>\n")
 
-    logging.info("Temp XML generated")
 
 # =========================================
 # MAIN
