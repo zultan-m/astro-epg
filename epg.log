@@ -1578,3 +1578,160 @@
 2026-03-15 07:47:51,022 - INFO - OK: BAYU-31
 2026-03-15 07:47:51,035 - INFO - Temp XML generated
 2026-03-15 07:47:51,405 - INFO - EPG Updated Successfully
+2026-03-15 22:34:10,607 - INFO - Build ID: Kzg_L4JAw9Z3A5Hc10D2o
+2026-03-15 22:34:10,822 - INFO - OK: TV2-HD-396
+2026-03-15 22:34:10,823 - ERROR - Error processing TV1-HD-395: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:10,840 - INFO - OK: Astro-Prima-316
+2026-03-15 22:34:10,863 - ERROR - Error processing Al-Hijrah-149: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:10,866 - INFO - OK: TV3-106
+2026-03-15 22:34:11,016 - ERROR - Error processing TV-Okey-HD-467: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:11,084 - ERROR - Error processing Colors-Hindi-HD-365: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:11,155 - INFO - OK: 8TV-115
+2026-03-15 22:34:11,231 - ERROR - Error processing TV9-48: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:11,265 - ERROR - Error processing Astro-Vaanavil-397: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:11,550 - INFO - OK: NTV7-93
+2026-03-15 22:34:11,569 - INFO - OK: Astro-Aura-400
+2026-03-15 22:34:11,688 - ERROR - Error processing SUN-TV-HD-358: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:11,741 - INFO - OK: Sun-Music-HD-417
+2026-03-15 22:34:11,841 - INFO - OK: Adithya-67
+2026-03-15 22:34:11,988 - INFO - OK: KTV-477
+2026-03-15 22:34:12,119 - INFO - OK: Sun-Life-476
+2026-03-15 22:34:12,166 - INFO - OK: Astro-Ria-193
+2026-03-15 22:34:12,193 - INFO - OK: Astro-Oasis-315
+2026-03-15 22:34:12,233 - INFO - OK: Astro-Citra-301
+2026-03-15 22:34:12,275 - ERROR - Error processing Star-Vijay-HD-357: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,356 - ERROR - Error processing iQIYI-HD-355: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,365 - INFO - OK: Astro-Rania-401
+2026-03-15 22:34:12,369 - INFO - OK: Z-Cinema-HD-490
+2026-03-15 22:34:12,379 - ERROR - Error processing Astro-Thangathirai-177: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,497 - INFO - OK: TVB-Classic-HD-425
+2026-03-15 22:34:12,526 - INFO - OK: Celestial-Movies-HD-134
+2026-03-15 22:34:12,535 - ERROR - Error processing Astro-AEC-182: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,540 - INFO - OK: Astro-Vellithirai-HD-399
+2026-03-15 22:34:12,593 - ERROR - Error processing TVB-Jade-203: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,609 - INFO - OK: Astro-AOD-172
+2026-03-15 22:34:12,650 - INFO - OK: CTI-Asia-HD-424
+2026-03-15 22:34:12,731 - ERROR - Error processing TVB-Xing-He-HD-383: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,745 - ERROR - Error processing TVBS-Asia-HD-384: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,846 - INFO - OK: TV-Sarawak-429
+2026-03-15 22:34:12,846 - ERROR - Error processing Phoenix-Chinese-Channel-HD-382: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,855 - INFO - OK: Astro-QJ-158
+2026-03-15 22:34:12,872 - INFO - OK: Astro-Vinmeen-167
+2026-03-15 22:34:12,976 - ERROR - Error processing KBS-World-HD-161: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:12,994 - ERROR - Error processing CCTV4-HD-385: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:13,006 - INFO - OK: ONE-HD-133
+2026-03-15 22:34:13,084 - INFO - OK: Sun-News-478
+2026-03-15 22:34:13,093 - ERROR - Error processing K-Plus-HD-266: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:13,236 - INFO - OK: Astro-Hua-Hee-Dai-162
+2026-03-15 22:34:13,530 - INFO - OK: HITS-MOVIES-HD-391
+2026-03-15 22:34:13,674 - INFO - OK: NHK-World-Premium-428
+2026-03-15 22:34:13,704 - INFO - OK: Colors-Tamil-HD-298
+2026-03-15 22:34:13,772 - INFO - OK: Z-Tamil-HD-297
+2026-03-15 22:34:13,777 - ERROR - Error processing Rock-X-Stream-605: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:13,864 - INFO - OK: Celestial-Classic-Movies-187
+2026-03-15 22:34:13,924 - INFO - OK: Astro-Awani-HD-436
+2026-03-15 22:34:13,947 - INFO - OK: Astro-Boo-251
+2026-03-15 22:34:13,981 - ERROR - Error processing Bernama-TV-160: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,050 - INFO - OK: Phoenix-Info-News-HD-43
+2026-03-15 22:34:14,051 - ERROR - Error processing CNN-HD-336: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,097 - INFO - OK: Rock-Action-601
+2026-03-15 22:34:14,108 - ERROR - Error processing BBC-News-HD-366: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,124 - INFO - OK: Astro-Showtime-604
+2026-03-15 22:34:14,174 - INFO - OK: TVB-Entertainment-News-HD-427
+2026-03-15 22:34:14,223 - ERROR - Error processing CNBC-Asia-HD-423: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,268 - ERROR - Error processing DW-English-287: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,330 - INFO - OK: France24-289
+2026-03-15 22:34:14,348 - ERROR - Error processing Al-Jazeera-English-HD-374: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,432 - ERROR - Error processing Love-Nature-483: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,446 - INFO - OK: tvN-HD-190
+2026-03-15 22:34:14,457 - ERROR - Error processing Discovery-Channel-HD-376: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,552 - INFO - OK: ABC-Australia-HD-461
+2026-03-15 22:34:14,670 - ERROR - Error processing CGTN-Documentary-587: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:14,710 - INFO - OK: CNA-HD-295
+2026-03-15 22:34:14,863 - INFO - OK: Astro-Showcase-454
+2026-03-15 22:34:15,095 - INFO - OK: tvN-Movies-HD-274
+2026-03-15 22:34:15,134 - INFO - OK: History-HD-144
+2026-03-15 22:34:15,216 - INFO - OK: Bloomberg-TV-HD-422
+2026-03-15 22:34:15,227 - ERROR - Error processing Nick-Jr-392: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,277 - INFO - OK: CGTN-HD-426
+2026-03-15 22:34:15,285 - INFO - OK: Cartoon-Network-HD-371
+2026-03-15 22:34:15,318 - ERROR - Error processing Moonbug-465: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,355 - INFO - OK: Blippi-and-Friends-566
+2026-03-15 22:34:15,424 - INFO - OK: AXN-HD-131
+2026-03-15 22:34:15,435 - ERROR - Error processing HITS-NOW-524: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,513 - ERROR - Error processing TLC-HD-338: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,566 - ERROR - Error processing HITS-HD-179: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,664 - ERROR - Error processing Asian-Food-Network-HD-91: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,704 - INFO - OK: Crime-and-Investigation-HD-369
+2026-03-15 22:34:15,805 - INFO - OK: Astro-Tutor-TV-411
+2026-03-15 22:34:15,806 - ERROR - Error processing HGTV-HD-198: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,814 - INFO - OK: Lifetime-HD-447
+2026-03-15 22:34:15,858 - ERROR - Error processing BBC-Lifestyle-HD-451: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,872 - INFO - OK: Love-Nature-4K-472
+2026-03-15 22:34:15,922 - INFO - OK: Arena-Bola-486
+2026-03-15 22:34:15,924 - ERROR - Error processing Astro-Arena-2-457: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:15,933 - INFO - OK: Astro-Arena-235
+2026-03-15 22:34:15,962 - INFO - OK: Discovery-Asia-HD-136
+2026-03-15 22:34:15,982 - INFO - OK: Astro-Sports-UHD-805-308
+2026-03-15 22:34:16,004 - ERROR - Error processing Arena-Bola-2-487: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:16,007 - INFO - OK: Nickelodeon-HD-370
+2026-03-15 22:34:16,039 - INFO - OK: BBC-Earth-452
+2026-03-15 22:34:16,076 - INFO - OK: CBeebies-481
+2026-03-15 22:34:16,106 - INFO - OK: Astro-Premier-League-536
+2026-03-15 22:34:16,107 - ERROR - Error processing Astro-Premier-League-2-537: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:16,231 - INFO - OK: beIN-SPORTS-1-236
+2026-03-15 22:34:16,243 - ERROR - Error processing Astro-Sports-Plus-542: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:16,323 - WARNING - Skipped channel: Astro-Premier-League-4-568
+2026-03-15 22:34:16,340 - INFO - OK: beIN-SPORTS-2-466
+2026-03-15 22:34:16,368 - INFO - OK: Astro-Ceria-386
+2026-03-15 22:34:16,423 - ERROR - Error processing W-Sport-503: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:16,475 - INFO - OK: Astro-Football-539
+2026-03-15 22:34:16,483 - ERROR - Error processing CricBuzz-600: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:16,534 - WARNING - Skipped channel: Astro-Badminton-2-541
+2026-03-15 22:34:16,554 - INFO - OK: Premier-Sports-Rugby-393
+2026-03-15 22:34:16,787 - INFO - OK: Astro-Grandstand-543
+2026-03-15 22:34:16,807 - WARNING - Skipped channel: Astro-Premier-League-5-570
+2026-03-15 22:34:16,850 - INFO - OK: Astro-First-HD-148
+2026-03-15 22:34:16,880 - WARNING - Skipped channel: Astro-Premier-League-3-538
+2026-03-15 22:34:16,897 - INFO - OK: beIN-SPORTS-3-313
+2026-03-15 22:34:16,906 - INFO - OK: Astro-Badminton-540
+2026-03-15 22:34:16,956 - INFO - OK: Astro-Golf-189
+2026-03-15 22:34:17,264 - ERROR - Error processing Astro-First-HD-174: Expecting value: line 1 column 1 (char 0)
+2026-03-15 22:34:17,297 - INFO - OK: Astro-First-HD-242
+2026-03-15 22:34:17,302 - INFO - OK: Astro-First-HD-175
+2026-03-15 22:34:17,361 - INFO - OK: Astro-First-HD-265
+2026-03-15 22:34:17,371 - INFO - OK: Astro-First-HD-142
+2026-03-15 22:34:17,491 - INFO - OK: Astro-First-HD-152
+2026-03-15 22:34:17,641 - INFO - OK: Astro-First-HD-404
+2026-03-15 22:34:17,731 - INFO - OK: MY-FM-15
+2026-03-15 22:34:17,736 - INFO - OK: Astro-First-HD-150
+2026-03-15 22:34:17,741 - INFO - OK: Astro-First-HD-413
+2026-03-15 22:34:17,811 - INFO - OK: Astro-First-HD-146
+2026-03-15 22:34:17,857 - INFO - OK: Astro-First-HD-240
+2026-03-15 22:34:17,891 - INFO - OK: HITZ-FM-17
+2026-03-15 22:34:17,924 - INFO - OK: SINAR-FM-26
+2026-03-15 22:34:18,026 - INFO - OK: THR-RAAGA-30
+2026-03-15 22:34:18,058 - INFO - OK: Astro-First-HD-238
+2026-03-15 22:34:18,117 - INFO - OK: Astro-First-HD-173
+2026-03-15 22:34:18,132 - INFO - OK: MIX-FM-18
+2026-03-15 22:34:18,146 - INFO - OK: OPUS-16
+2026-03-15 22:34:18,188 - INFO - OK: Astro-First-HD-125
+2026-03-15 22:34:18,219 - INFO - OK: MELODY-FM-28
+2026-03-15 22:34:18,239 - INFO - OK: INDIA-BEAT-23
+2026-03-15 22:34:18,288 - INFO - OK: OSAI-27
+2026-03-15 22:34:18,297 - INFO - OK: CLASSIC-ROCK-20
+2026-03-15 22:34:18,322 - INFO - OK: KENYALANG-32
+2026-03-15 22:34:18,336 - INFO - OK: LITE-FM-19
+2026-03-15 22:34:18,401 - INFO - OK: ERA-FM-14
+2026-03-15 22:34:18,463 - INFO - OK: GOLD-21
+2026-03-15 22:34:18,546 - INFO - OK: THR-GEGAR-22
+2026-03-15 22:34:18,659 - INFO - OK: ZAYAN-292
+2026-03-15 22:34:18,698 - INFO - OK: Astro-First-HD-416
+2026-03-15 22:34:18,715 - INFO - No schedule: BBC-First-HD-458
+2026-03-15 22:34:18,762 - INFO - OK: JAZZ-24
+2026-03-15 22:34:18,780 - INFO - No schedule: Smithsonian-Channel-394
+2026-03-15 22:34:18,811 - INFO - No schedule: BBC-Brit-HD-459
+2026-03-15 22:34:18,882 - INFO - OK: BAYU-31
+2026-03-15 22:34:19,504 - INFO - OK: GOXUAN-293
+2026-03-15 22:34:19,513 - INFO - Temp XML generated
+2026-03-15 22:34:19,735 - INFO - EPG Updated Successfully
