@@ -52,7 +52,7 @@ CHANNEL_SLUGS = [
 "Astro-Premier-League-536","Astro-Premier-League-2-537","Astro-Premier-League-3-538",
 "Astro-Football-539","Astro-Badminton-540","Astro-Badminton-2-541","Astro-Sports-Plus-542",
 "beIN-SPORTS-1-236","beIN-SPORTS-2-466","beIN-SPORTS-3-313","W-Sport-503",
-"Astro-Golf-189","CricBuzz-600","Premier-Sports-Rugby-393","Astro-First-HD-175",
+"Astro-Golf-189","CricBuzz-600","Premier-Sports-393","Astro-First-HD-175",
 "Astro-First-HD-148","Astro-First-HD-146","Astro-First-HD-152","Astro-First-HD-238",
 "Astro-First-HD-173","Astro-First-HD-125","Astro-First-HD-174","Astro-First-HD-242",
 "Astro-First-HD-265","Astro-First-HD-142","Astro-First-HD-404","Astro-First-HD-413",
