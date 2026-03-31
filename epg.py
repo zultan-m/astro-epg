@@ -36,7 +36,7 @@ CHANNEL_SLUGS = [
 "TVB-Xing-He-HD-383","TVBS-Asia-HD-384","Celestial-Classic-Movies-187",
 "Phoenix-Chinese-Channel-HD-382","Phoenix-Info-News-HD-43","Astro-Hua-Hee-Dai-162",
 "CCTV4-HD-385","KBS-World-HD-161","ONE-HD-133","tvN-HD-190","K-Plus-HD-266",
-"NHK-World-Premium-428","HITS-MOVIES-HD-391","Astro-Boo-251","Astro-Showtime-604",
+"NHK-World-Premium-428","HITS-MOVIES-HD-391","Astro-Boo-251","Astro-Showtime-604","Astro-FAM-Time-603", 
 "Astro-Showcase-454","Rock-Action-601","Rock-X-Stream-605","tvN-Movies-HD-274",
 "Astro-Awani-HD-436","Bernama-TV-160","CGTN-HD-426","CNN-HD-336","BBC-News-HD-366",
 "Al-Jazeera-English-HD-374","CNA-HD-295","CNBC-Asia-HD-423","Bloomberg-TV-HD-422",
