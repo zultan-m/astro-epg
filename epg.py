@@ -50,7 +50,7 @@ CHANNEL_SLUGS = [
 "Astro-Arena-2-457","Arena-Bola-486","Arena-Bola-2-487","Astro-Sports-UHD-805-308",
 "Astro-Premier-League-4-568","Astro-Premier-League-5-570","Astro-Grandstand-543",
 "Astro-Premier-League-536","Astro-Premier-League-2-537","Astro-Premier-League-3-538",
-"Astro-Football-539","Astro-Badminton-540","Astro-Badminton-2-541","Astro-Sports-Plus-542",
+"Astro-Football-539","Astro-Badminton-540","Astro-Badminton-2-541","Astro-Sports-Plus-542","Astro-Sports-Plus-2-280",
 "beIN-SPORTS-1-236","beIN-SPORTS-2-466","beIN-SPORTS-3-313","W-Sport-503",
 "Astro-Golf-189","CricBuzz-600","Premier-Sports-393","Astro-First-HD-175",
 "Astro-First-HD-148","Astro-First-HD-146","Astro-First-HD-152","Astro-First-HD-238",
