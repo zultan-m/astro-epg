@@ -13,25 +13,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Extract old EPG
+      - name: Unblock EXE
         shell: powershell
         run: |
-          if (Test-Path "astro.xml.gz") {
-            gzip -d astro.xml.gz
-            Rename-Item astro.xml astro_old.xml -Force
-          }
+          Unblock-File .\epg.exe
 
       - name: Run EXE
         shell: powershell
         run: |
           .\epg.exe
 
-      - name: Compress EPG
+      - name: Compress XML
         shell: powershell
         run: |
-          gzip -9 -c astro.xml > astro.xml.gz
+          python -c "import gzip, shutil; f_in=open('astro.xml','rb'); f_out=gzip.open('astro.xml.gz','wb'); shutil.copyfileobj(f_in,f_out); f_out.close(); f_in.close()"
 
-      - name: Commit changes
+      - name: Commit files
         shell: powershell
         run: |
           git config --global user.name "epg-bot"
@@ -41,6 +38,6 @@ jobs:
 
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
-            git commit -m "Auto update EPG, XML, GZ & log"
+            git commit -m "Auto update EPG"
             git push
           }
