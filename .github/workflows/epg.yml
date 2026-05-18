@@ -13,11 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Unblock EXE
-        shell: powershell
-        run: |
-          Unblock-File .\epg.exe
-
       - name: Run EXE
         shell: powershell
         run: |
