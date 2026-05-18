@@ -897,8 +897,8 @@
     <desc lang="en">Berita Perdana yang memaparkan perkembangan terkini, isu-isu semasa dalam dan luar negara.</desc>
   </programme>
   <programme start="20260518203000 +0800" stop="20260518210000 +0800" channel="101.astro">
-    <title lang="en">(L) Malaysia Tonight</title>
-    <desc lang="en">Berita Bahasa Inggeris yang berkonsepkan berita dunia korporat, bisnes dan isu-isu semasa</desc>
+    <title lang="en">(L) Tanya Terus</title>
+    <desc lang="en">Saksikan Tanya Terus merungkai persoalan isu-isu semasa, kami tanyakan untuk anda</desc>
   </programme>
   <programme start="20260518210000 +0800" stop="20260518223000 +0800" channel="101.astro">
     <title lang="en">(L) Salam Baitullah 2026 Ep06</title>
@@ -7232,27 +7232,27 @@
     <title lang="en">Kelas Belakang Ep07</title>
     <desc lang="en">Kelas Belakang</desc>
   </programme>
-  <programme start="20260520230000 +0800" stop="20260521010000 +0800" channel="108.astro">
+  <programme start="20260520230000 +0800" stop="20260521010400 +0800" channel="108.astro">
     <title lang="en">Istanbul Aku Datang</title>
     <desc lang="en">Dian yang menyewa sebuah apartment di Istanbul ditipu oleh anak pemilik apartment itu dan bertemu Harris yang juga tinggal di situ. Dapatkah Dian menghalau Harris dari apartment itu?</desc>
   </programme>
-  <programme start="20260521010000 +0800" stop="20260521025500 +0800" channel="108.astro">
+  <programme start="20260521010400 +0800" stop="20260521030600 +0800" channel="108.astro">
     <title lang="en">Talentime</title>
     <desc lang="en">Mengisahkan tentang sebuah pertandingan adu bakat di sekolah yang telah mempertemukan 2 orang insan dalam satu jaringan percintaan walaupun berbeza bangsa keturunan dan latar belakang keluarga.</desc>
   </programme>
-  <programme start="20260521025500 +0800" stop="20260521030000 +0800" channel="108.astro">
+  <programme start="20260521030600 +0800" stop="20260521030800 +0800" channel="108.astro">
     <title lang="en">Sesaat Lebih - Trailer</title>
     <desc lang="en">Mengisahkan Adelia, seorang wanita berkerjaya yang kehilangan suami secara mengejut, lalu berusaha sembuh bersama anaknya dan sahabat baik arwah, menemui makna cinta dan peluang kedua dalam hidup hari ini.</desc>
   </programme>
-  <programme start="20260521030000 +0800" stop="20260521035000 +0800" channel="108.astro">
+  <programme start="20260521030800 +0800" stop="20260521035800 +0800" channel="108.astro">
     <title lang="en">Good Boys Go To Heaven Ep01</title>
     <desc lang="en">The town of Kuala Makar is hit with devastating news when a beloved child is found dead.</desc>
   </programme>
-  <programme start="20260521035000 +0800" stop="20260521042000 +0800" channel="108.astro">
+  <programme start="20260521035800 +0800" stop="20260521041900 +0800" channel="108.astro">
     <title lang="en">The Making of The Furious</title>
     <desc lang="en">The Making of The Furious</desc>
   </programme>
-  <programme start="20260521042000 +0800" stop="20260521060000 +0800" channel="108.astro">
+  <programme start="20260521041900 +0800" stop="20260521060000 +0800" channel="108.astro">
     <title lang="en">M4M4</title>
     <desc lang="en">Aini, ibu yang sedang bersedih ingin membalas dendam terhadap mereka yang selalu menimbulkan kekacauan di kejiranannya menyebabkan kematian anaknya yang berumur 15 tahun.</desc>
   </programme>
@@ -20409,8 +20409,8 @@
     <desc lang="en">Enjoy these unforgettable comedy scenes featuring some of the most outrages and out of the world comedy scenes and keep on laughing.</desc>
   </programme>
   <programme start="20260518153000 +0800" stop="20260518163000 +0800" channel="214.astro">
-    <title lang="en">Oru Pada Comedy</title>
-    <desc lang="en">This program plays comedy tracks from popular Tamil movie.</desc>
+    <title lang="en">Sirigama Pathani</title>
+    <desc lang="en">Back to back comedy clips with a literary or cinematic work of a comic nature that uses themes or methods of comedy and humor.</desc>
   </programme>
   <programme start="20260518163000 +0800" stop="20260518173000 +0800" channel="214.astro">
     <title lang="en">Goundamani Senthil Special</title>
@@ -23092,9 +23092,13 @@
     <title lang="en">Thaai Maaman</title>
     <desc lang="en">After serving 14 years for a violent feud, a man returns to his village seeking peace and proposes a marriage between his son and his sworn enemy&#x27;s daughter to end generations of hatred.</desc>
   </programme>
-  <programme start="20260518120000 +0800" stop="20260518130000 +0800" channel="221.astro">
+  <programme start="20260518120000 +0800" stop="20260518123000 +0800" channel="221.astro">
     <title lang="en">Mahasangamam- Azhage Azhagu &amp; Pandian</title>
     <desc lang="en">Catch the special Mahasangamam episodes of Azhage Azhagu and Pandian Stores serial.</desc>
+  </programme>
+  <programme start="20260518123000 +0800" stop="20260518130000 +0800" channel="221.astro">
+    <title lang="en">Cooku With Comali- Special Roast</title>
+    <desc lang="en">Catch this special compilation of Cooku with Comali show.</desc>
   </programme>
   <programme start="20260518130000 +0800" stop="20260518133000 +0800" channel="221.astro">
     <title lang="en">Ayyanar Thunai</title>
@@ -23113,8 +23117,8 @@
     <desc lang="en">The series explores the evolving dynamics of childhood friendship and whether it can withstand the transition into marriage.</desc>
   </programme>
   <programme start="20260518150000 +0800" stop="20260518153000 +0800" channel="221.astro">
-    <title lang="en">Dhanam Ep381</title>
-    <desc lang="en">After the untimely death of her husband, Dhanalakshmi is left to shoulder not only her grief but also the weight of his unfulfilled dreams and aspirations.</desc>
+    <title lang="en">Sindhu Bairavi</title>
+    <desc lang="en">Catch what unfolds next when two polar opposite of people falls in love.</desc>
   </programme>
   <programme start="20260518153000 +0800" stop="20260518160000 +0800" channel="221.astro">
     <title lang="en">Kanmani Anbudan Ep507</title>
@@ -24344,13 +24348,9 @@
     <title lang="en">Shiva Shakthi Thiruvilayadal</title>
     <desc lang="en">Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.</desc>
   </programme>
-  <programme start="20260520150000 +0800" stop="20260520173000 +0800" channel="222.astro">
+  <programme start="20260520150000 +0800" stop="20260520180000 +0800" channel="222.astro">
     <title lang="en">Kaathuvaakula Rendu Kaadhal</title>
     <desc lang="en">The life of Rambo, an unlucky man, changes when he finds love. However, the only problem is, instead of one, he falls in love with two women. Cast : Nayanthara, Samatha and VJS</desc>
-  </programme>
-  <programme start="20260520173000 +0800" stop="20260520180000 +0800" channel="222.astro">
-    <title lang="en">Shiva Shakthi Thiruvilayadal</title>
-    <desc lang="en">Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.</desc>
   </programme>
   <programme start="20260520180000 +0800" stop="20260520183000 +0800" channel="222.astro">
     <title lang="en">Mynaa</title>
@@ -24404,13 +24404,9 @@
     <title lang="en">Malar</title>
     <desc lang="en">Three years after Malar murders her stalker, she gets married to the investigating officer of the case. Will her past finally catch up with her?</desc>
   </programme>
-  <programme start="20260521030000 +0800" stop="20260521053000 +0800" channel="222.astro">
+  <programme start="20260521030000 +0800" stop="20260521060000 +0800" channel="222.astro">
     <title lang="en">Kaathuvaakula Rendu Kaadhal</title>
     <desc lang="en">The life of Rambo, an unlucky man, changes when he finds love. However, the only problem is, instead of one, he falls in love with two women. Cast : Nayanthara, Samatha and VJS</desc>
-  </programme>
-  <programme start="20260521053000 +0800" stop="20260521060000 +0800" channel="222.astro">
-    <title lang="en">Mynaa</title>
-    <desc lang="en">The story follows a young girl named Mynaa who is born into bondage and forced into labor, but she fights against the oppressive system and strives for her dreams.</desc>
   </programme>
   <programme start="20260521060000 +0800" stop="20260521063000 +0800" channel="222.astro">
     <title lang="en">Mynaa</title>
@@ -24464,13 +24460,9 @@
     <title lang="en">Shiva Shakthi Thiruvilayadal</title>
     <desc lang="en">Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.</desc>
   </programme>
-  <programme start="20260521150000 +0800" stop="20260521173000 +0800" channel="222.astro">
+  <programme start="20260521150000 +0800" stop="20260521180000 +0800" channel="222.astro">
     <title lang="en">Irugapatru</title>
     <desc lang="en">The issues in the lives of three married couples threaten to break their relationships. Can they find a reason to stay together? Cast : Vikram Prabhu and Shraddha Srinath</desc>
-  </programme>
-  <programme start="20260521173000 +0800" stop="20260521180000 +0800" channel="222.astro">
-    <title lang="en">Shiva Shakthi Thiruvilayadal</title>
-    <desc lang="en">Lord Shiva and his wife, Goddess Parvati, navigate their relationship and duties and offer sacrifices and brave separation to selflessly care for humanity.</desc>
   </programme>
   <programme start="20260521180000 +0800" stop="20260521183000 +0800" channel="222.astro">
     <title lang="en">Mynaa</title>
@@ -24524,13 +24516,9 @@
     <title lang="en">Malar</title>
     <desc lang="en">Three years after Malar murders her stalker, she gets married to the investigating officer of the case. Will her past finally catch up with her?</desc>
   </programme>
-  <programme start="20260522030000 +0800" stop="20260522053000 +0800" channel="222.astro">
+  <programme start="20260522030000 +0800" stop="20260522060000 +0800" channel="222.astro">
     <title lang="en">Irugapatru</title>
     <desc lang="en">The issues in the lives of three married couples threaten to break their relationships. Can they find a reason to stay together? Cast : Vikram Prabhu and Shraddha Srinath</desc>
-  </programme>
-  <programme start="20260522053000 +0800" stop="20260522060000 +0800" channel="222.astro">
-    <title lang="en">Sillunu Oru Kaadhal</title>
-    <desc lang="en">DCP Suryakumar is forced to marry underaged Kayalvizhi, a lively girl with quirky beliefs. Can they overcome challenges and lead a normal life?</desc>
   </programme>
   <programme start="20260522060000 +0800" stop="20260522063000 +0800" channel="222.astro">
     <title lang="en">Sillunu Oru Kaadhal</title>
@@ -28034,19 +28022,19 @@
   </programme>
   <programme start="20260518080000 +0800" stop="20260518083000 +0800" channel="306.astro">
     <title lang="en">The True Journey Ep06</title>
-    <desc lang="en">The cast heads back to the late 90s for secondary school as Lok Yi, Mayanne and Tiffany revisit Hong Kong&#x27;s pop era, while Nicole and Emi explore Malaysian tunes, snacks and childhood joys.</desc>
+    <desc lang="en">The cast heads back to the late 90s for secondary school as Lok Yi, Mayanne and Tiffany revisit Hong Kong’s pop era, while Nicole and Emi explore Malaysian tunes, snacks and childhood joys.</desc>
   </programme>
   <programme start="20260518083000 +0800" stop="20260518093000 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep02</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260518093000 +0800" stop="20260518100000 +0800" channel="306.astro">
     <title lang="en">The Mystery of Middle East Ep17</title>
-    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women&#x27;s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
+    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women’s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
   </programme>
   <programme start="20260518100000 +0800" stop="20260518103000 +0800" channel="306.astro">
     <title lang="en">Genius Chef Junior: Little Chef&#x27;s Note Ep06</title>
-    <desc lang="en">The kitchen is no longer just for adults! This program lets young chefs cook independently, presenting their family&#x27;s signature dishes and sharing the stories behind each creation.</desc>
+    <desc lang="en">The kitchen is no longer just for adults! This program lets young chefs cook independently, presenting their family’s signature dishes and sharing the stories behind each creation.</desc>
   </programme>
   <programme start="20260518103000 +0800" stop="20260518104500 +0800" channel="306.astro">
     <title lang="en">Lil Wild S2 Ep01</title>
@@ -28062,7 +28050,7 @@
   </programme>
   <programme start="20260518120000 +0800" stop="20260518130000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep18</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260518130000 +0800" stop="20260518140000 +0800" channel="306.astro">
     <title lang="en">Kid U Not Ep15</title>
@@ -28074,11 +28062,11 @@
   </programme>
   <programme start="20260518143000 +0800" stop="20260518150000 +0800" channel="306.astro">
     <title lang="en">The True Journey Ep06</title>
-    <desc lang="en">The cast heads back to the late 90s for secondary school as Lok Yi, Mayanne and Tiffany revisit Hong Kong&#x27;s pop era, while Nicole and Emi explore Malaysian tunes, snacks and childhood joys.</desc>
+    <desc lang="en">The cast heads back to the late 90s for secondary school as Lok Yi, Mayanne and Tiffany revisit Hong Kong’s pop era, while Nicole and Emi explore Malaysian tunes, snacks and childhood joys.</desc>
   </programme>
   <programme start="20260518150000 +0800" stop="20260518153000 +0800" channel="306.astro">
     <title lang="en">The Mystery of Middle East Ep18</title>
-    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women&#x27;s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
+    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women’s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
   </programme>
   <programme start="20260518153000 +0800" stop="20260518163000 +0800" channel="306.astro">
     <title lang="en">Just In Time Ep15</title>
@@ -28086,15 +28074,15 @@
   </programme>
   <programme start="20260518163000 +0800" stop="20260518173000 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep03</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260518173000 +0800" stop="20260518180000 +0800" channel="306.astro">
     <title lang="en">Genius Chef Junior: Little Chef&#x27;s Note Ep07</title>
-    <desc lang="en">The kitchen is no longer just for adults! This program lets young chefs cook independently, presenting their family&#x27;s signature dishes and sharing the stories behind each creation.</desc>
+    <desc lang="en">The kitchen is no longer just for adults! This program lets young chefs cook independently, presenting their family’s signature dishes and sharing the stories behind each creation.</desc>
   </programme>
   <programme start="20260518180000 +0800" stop="20260518180200 +0800" channel="306.astro">
     <title lang="en">(L) AI News Flash</title>
-    <desc lang="en">Malaysia&#x27;s first Chinese news program hosted by an AI anchor. In just 100 seconds, it provides viewers with a daily summary of the latest domestic and international news.</desc>
+    <desc lang="en">Malaysia’s first Chinese news program hosted by an AI anchor. In just 100 seconds, it provides viewers with a daily summary of the latest domestic and international news.</desc>
   </programme>
   <programme start="20260518180200 +0800" stop="20260518181600 +0800" channel="306.astro">
     <title lang="en">Lil Wild S2 Ep05</title>
@@ -28106,27 +28094,27 @@
   </programme>
   <programme start="20260518183000 +0800" stop="20260518190000 +0800" channel="306.astro">
     <title lang="en">The Mystery of Middle East Ep18</title>
-    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women&#x27;s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
+    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women’s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
   </programme>
   <programme start="20260518190000 +0800" stop="20260518200000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep19</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260518200000 +0800" stop="20260518203000 +0800" channel="306.astro">
     <title lang="en">(L) 2000 Prime Talk</title>
     <desc lang="en">This primetime news programme delivers the latest in current affairs, international top stories &amp; human interest, with input from professionals in the field.</desc>
   </programme>
-  <programme start="20260518203000 +0800" stop="20260518212700 +0800" channel="306.astro">
+  <programme start="20260518203000 +0800" stop="20260518212500 +0800" channel="306.astro">
     <title lang="en">Kid U Not Ep16</title>
     <desc lang="en">In their twilight years, 3 friends are transformed into 12-year-olds after drinking tea in a mysterious teahouse. Now, they have to complete missions in order to stay alive.</desc>
   </programme>
-  <programme start="20260518212700 +0800" stop="20260518213000 +0800" channel="306.astro">
+  <programme start="20260518212500 +0800" stop="20260518213000 +0800" channel="306.astro">
     <title lang="en">XUAN Curry Fishball 2026 - Express Ep11</title>
     <desc lang="en">&lt;XUAN Curry Fishball 2026 - Express&gt; delivers your weekly dose of entertainment—fast, fresh, and full of surprises! Unbox the hottest music, must-watch shows, and trending buzz, all in one place.</desc>
   </programme>
   <programme start="20260518213000 +0800" stop="20260518223000 +0800" channel="306.astro">
     <title lang="en">James&#x27;s Going Places S21 Ep07</title>
-    <desc lang="en">Taiwan&#x27;s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you&#x27;ve never forgotten.</desc>
+    <desc lang="en">Taiwan’s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you’ve never forgotten.</desc>
   </programme>
   <programme start="20260518223000 +0800" stop="20260518230000 +0800" channel="306.astro">
     <title lang="en">(L) Evening Edition</title>
@@ -28138,7 +28126,7 @@
   </programme>
   <programme start="20260519000000 +0800" stop="20260519010000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep19</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260519010000 +0800" stop="20260519020000 +0800" channel="306.astro">
     <title lang="en">SHARP Travel with Parents S1 Ep03</title>
@@ -28146,7 +28134,7 @@
   </programme>
   <programme start="20260519020000 +0800" stop="20260519030000 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep03</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260519030000 +0800" stop="20260519035500 +0800" channel="306.astro">
     <title lang="en">Just In Time Ep15</title>
@@ -28158,7 +28146,7 @@
   </programme>
   <programme start="20260519040000 +0800" stop="20260519050000 +0800" channel="306.astro">
     <title lang="en">James&#x27;s Going Places S21 Ep07</title>
-    <desc lang="en">Taiwan&#x27;s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you&#x27;ve never forgotten.</desc>
+    <desc lang="en">Taiwan’s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you’ve never forgotten.</desc>
   </programme>
   <programme start="20260519050000 +0800" stop="20260519060000 +0800" channel="306.astro">
     <title lang="en">SHARP Travel with Parents S1 Ep03</title>
@@ -28178,7 +28166,7 @@
   </programme>
   <programme start="20260519083000 +0800" stop="20260519092500 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep03</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260519092500 +0800" stop="20260519093000 +0800" channel="306.astro">
     <title lang="en">XUAN Curry Fishball 2026 - Express Ep11</title>
@@ -28186,7 +28174,7 @@
   </programme>
   <programme start="20260519093000 +0800" stop="20260519100000 +0800" channel="306.astro">
     <title lang="en">The Mystery of Middle East Ep18</title>
-    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women&#x27;s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
+    <desc lang="en">Saudi Arabia has been actively reforming in politics, economy, women’s right, tourism &amp; other fields in recent years. Get an in-depth look at the local culture &amp; Aperspective of this mysterious land.</desc>
   </programme>
   <programme start="20260519100000 +0800" stop="20260519103000 +0800" channel="306.astro">
     <title lang="en">Fruity Pie Ep2456</title>
@@ -28206,7 +28194,7 @@
   </programme>
   <programme start="20260519120000 +0800" stop="20260519130000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep19</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260519130000 +0800" stop="20260519135500 +0800" channel="306.astro">
     <title lang="en">Kid U Not Ep16</title>
@@ -28218,11 +28206,11 @@
   </programme>
   <programme start="20260519140000 +0800" stop="20260519150000 +0800" channel="306.astro">
     <title lang="en">James&#x27;s Going Places S21 Ep07</title>
-    <desc lang="en">Taiwan&#x27;s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you&#x27;ve never forgotten.</desc>
+    <desc lang="en">Taiwan’s famed host, James, takes you on a market adventure packed with local delicacies. Join foodies experts to reconnect with nostalgic flavours you’ve never forgotten.</desc>
   </programme>
   <programme start="20260519150000 +0800" stop="20260519153000 +0800" channel="306.astro">
     <title lang="en">Tuesday Report: Hands of Wonder Ep01</title>
-    <desc lang="en">This series explores how touch becomes a bridge that connects hearts: a blind masseur, a Chinese mortician, wig makers, Singapore&#x27;s only female high-rise cleaner and two one-handed hawkers.</desc>
+    <desc lang="en">This series explores how touch becomes a bridge that connects hearts: a blind masseur, a Chinese mortician, wig makers, Singapore’s only female high-rise cleaner and two one-handed hawkers.</desc>
   </programme>
   <programme start="20260519153000 +0800" stop="20260519163000 +0800" channel="306.astro">
     <title lang="en">Just In Time Ep16</title>
@@ -28230,7 +28218,7 @@
   </programme>
   <programme start="20260519163000 +0800" stop="20260519172500 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep04</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260519172500 +0800" stop="20260519173000 +0800" channel="306.astro">
     <title lang="en">XUAN Curry Fishball 2026 - Express Ep11</title>
@@ -28242,7 +28230,7 @@
   </programme>
   <programme start="20260519180000 +0800" stop="20260519180200 +0800" channel="306.astro">
     <title lang="en">(L) AI News Flash</title>
-    <desc lang="en">Malaysia&#x27;s first Chinese news program hosted by an AI anchor. In just 100 seconds, it provides viewers with a daily summary of the latest domestic and international news.</desc>
+    <desc lang="en">Malaysia’s first Chinese news program hosted by an AI anchor. In just 100 seconds, it provides viewers with a daily summary of the latest domestic and international news.</desc>
   </programme>
   <programme start="20260519180200 +0800" stop="20260519181600 +0800" channel="306.astro">
     <title lang="en">Lil Wild S2 Ep07</title>
@@ -28254,27 +28242,27 @@
   </programme>
   <programme start="20260519183000 +0800" stop="20260519190000 +0800" channel="306.astro">
     <title lang="en">Tuesday Report: Hands of Wonder Ep01</title>
-    <desc lang="en">This series explores how touch becomes a bridge that connects hearts: a blind masseur, a Chinese mortician, wig makers, Singapore&#x27;s only female high-rise cleaner and two one-handed hawkers.</desc>
+    <desc lang="en">This series explores how touch becomes a bridge that connects hearts: a blind masseur, a Chinese mortician, wig makers, Singapore’s only female high-rise cleaner and two one-handed hawkers.</desc>
   </programme>
   <programme start="20260519190000 +0800" stop="20260519200000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep20</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260519200000 +0800" stop="20260519203000 +0800" channel="306.astro">
     <title lang="en">(L) 2000 Prime Talk</title>
     <desc lang="en">This primetime news programme delivers the latest in current affairs, international top stories &amp; human interest, with input from professionals in the field.</desc>
   </programme>
-  <programme start="20260519203000 +0800" stop="20260519212700 +0800" channel="306.astro">
+  <programme start="20260519203000 +0800" stop="20260519212400 +0800" channel="306.astro">
     <title lang="en">Kid U Not Ep17</title>
     <desc lang="en">In their twilight years, 3 friends are transformed into 12-year-olds after drinking tea in a mysterious teahouse. Now, they have to complete missions in order to stay alive.</desc>
   </programme>
-  <programme start="20260519212700 +0800" stop="20260519213000 +0800" channel="306.astro">
+  <programme start="20260519212400 +0800" stop="20260519213000 +0800" channel="306.astro">
     <title lang="en">XUAN Curry Fishball 2026 - Express Ep12</title>
     <desc lang="en">&lt;XUAN Curry Fishball 2026 - Express&gt; delivers your weekly dose of entertainment—fast, fresh, and full of surprises! Unbox the hottest music, must-watch shows, and trending buzz, all in one place.</desc>
   </programme>
   <programme start="20260519213000 +0800" stop="20260519223000 +0800" channel="306.astro">
     <title lang="en">Taiwan No. 1 Ep361</title>
-    <desc lang="en">Explore the wonder that is Taiwan as the hosts share the island&#x27;s most captivating stories. Discover gems from nature, local cuisines &amp; sceneries to history &amp; culture.</desc>
+    <desc lang="en">Explore the wonder that is Taiwan as the hosts share the island’s most captivating stories. Discover gems from nature, local cuisines &amp; sceneries to history &amp; culture.</desc>
   </programme>
   <programme start="20260519223000 +0800" stop="20260519230000 +0800" channel="306.astro">
     <title lang="en">(L) Evening Edition</title>
@@ -28286,7 +28274,7 @@
   </programme>
   <programme start="20260520000000 +0800" stop="20260520010000 +0800" channel="306.astro">
     <title lang="en">Wild Ambition Bloom Ep20</title>
-    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family&#x27;s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
+    <desc lang="en">Chu Shao Hua comes from a prestigious family of medical practitioners. After experiencing her family’s decline, the loss of her husband &amp; daughter, she leaves for Shanghai to rebuild her life.</desc>
   </programme>
   <programme start="20260520010000 +0800" stop="20260520020000 +0800" channel="306.astro">
     <title lang="en">Fixer S4 Ep11</title>
@@ -28294,7 +28282,7 @@
   </programme>
   <programme start="20260520020000 +0800" stop="20260520030000 +0800" channel="306.astro">
     <title lang="en">Devil Behind The Gate Ep04</title>
-    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students&#x27; strange behaviour prompted Ying Jie to investigate.</desc>
+    <desc lang="en">After the death of his twin brother, Ying Jie returns to Singapore to handle his affairs. But the newlywed widow &amp; students’ strange behaviour prompted Ying Jie to investigate.</desc>
   </programme>
   <programme start="20260520030000 +0800" stop="20260520035500 +0800" channel="306.astro">
     <title lang="en">Just In Time Ep16</title>
@@ -28306,7 +28294,7 @@
   </programme>
   <programme start="20260520040000 +0800" stop="20260520050000 +0800" channel="306.astro">
     <title lang="en">Taiwan No. 1 Ep361</title>
-    <desc lang="en">Explore the wonder that is Taiwan as the hosts share the island&#x27;s most captivating stories. Discover gems from nature, local cuisines &amp; sceneries to history &amp; culture.</desc>
+    <desc lang="en">Explore the wonder that is Taiwan as the hosts share the island’s most captivating stories. Discover gems from nature, local cuisines &amp; sceneries to history &amp; culture.</desc>
   </programme>
   <programme start="20260520050000 +0800" stop="20260520060000 +0800" channel="306.astro">
     <title lang="en">Fixer S4 Ep11</title>
@@ -29232,11 +29220,11 @@
     <title lang="en">Love Beyond The Grave Ep30</title>
     <desc lang="en">Ghost King He Simu, the ruler of all spirits, unexpectedly meets Duan Xu, a young general. A mortal and a 400-year-old demon, entangled in destiny, fight against the torrent of time with love.</desc>
   </programme>
-  <programme start="20260520093000 +0800" stop="20260520103000 +0800" channel="308.astro">
+  <programme start="20260520093000 +0800" stop="20260520104300 +0800" channel="308.astro">
     <title lang="en">My Beautiful Hometown S2 Ep05</title>
     <desc lang="en">Li Rui, Shi Kai, &amp; Huang Wen Jin, along with the welcoming host Shen Meng Chen, travel to various districts &amp; counties in Hunan Province to discover the beauty, scenery, culture, food &amp; local products.</desc>
   </programme>
-  <programme start="20260520103000 +0800" stop="20260520120000 +0800" channel="308.astro">
+  <programme start="20260520104300 +0800" stop="20260520120000 +0800" channel="308.astro">
     <title lang="en">My Beautiful Hometown S2 Ep06</title>
     <desc lang="en">Li Rui, Shi Kai, &amp; Huang Wen Jin, along with the welcoming host Shen Meng Chen, travel to various districts &amp; counties in Hunan Province to discover the beauty, scenery, culture, food &amp; local products.</desc>
   </programme>
@@ -29502,7 +29490,7 @@
   </programme>
   <programme start="20260523080000 +0800" stop="20260523083000 +0800" channel="308.astro">
     <title lang="en">The Story Of Soy Sauce Ep06</title>
-    <desc lang="en">In Chinese homes, soy sauce is more than just seasoning. This journey explores its regional uses in cuisine, uncovering the cultural flavors that define China&#x27;s diverse culinary heritage.</desc>
+    <desc lang="en">In Chinese homes, soy sauce is more than just seasoning. This journey explores its regional uses in cuisine, uncovering the cultural flavors that define China’s diverse culinary heritage.</desc>
   </programme>
   <programme start="20260523083000 +0800" stop="20260523093000 +0800" channel="308.astro">
     <title lang="en">Love Beyond The Grave Ep33</title>
@@ -29524,13 +29512,13 @@
     <title lang="en">Love Beyond The Grave Ep33</title>
     <desc lang="en">Ghost King He Simu, the ruler of all spirits, unexpectedly meets Duan Xu, a young general. A mortal and a 400-year-old demon, entangled in destiny, fight against the torrent of time with love.</desc>
   </programme>
-  <programme start="20260523144500 +0800" stop="20260523161500 +0800" channel="308.astro">
-    <title lang="en">Ride The Wind 2026 Ep12</title>
-    <desc lang="en">This season returns with a groundbreaking live-broadcast concept, streaming performances from opening stage to grand finale with no editing, no pitch correction, zero delay, showcasing the female power.</desc>
+  <programme start="20260523144500 +0800" stop="20260523153000 +0800" channel="308.astro">
+    <title lang="en">Singer 2026 Ep99</title>
+    <desc lang="en">Singer 2026</desc>
   </programme>
-  <programme start="20260523161500 +0800" stop="20260523180000 +0800" channel="308.astro">
-    <title lang="en">TBC</title>
-    <desc lang="en">TBC</desc>
+  <programme start="20260523153000 +0800" stop="20260523180000 +0800" channel="308.astro">
+    <title lang="en">Singer 2026 Ep01</title>
+    <desc lang="en">Singer 2026</desc>
   </programme>
   <programme start="20260523180000 +0800" stop="20260523190000 +0800" channel="308.astro">
     <title lang="en">China S3 Ep03</title>
@@ -29540,21 +29528,21 @@
     <title lang="en">Love Beyond The Grave Ep34</title>
     <desc lang="en">Ghost King He Simu, the ruler of all spirits, unexpectedly meets Duan Xu, a young general. A mortal and a 400-year-old demon, entangled in destiny, fight against the torrent of time with love.</desc>
   </programme>
-  <programme start="20260523200000 +0800" stop="20260523220000 +0800" channel="308.astro">
+  <programme start="20260523200000 +0800" stop="20260523223000 +0800" channel="308.astro">
     <title lang="en">Keep Running S14 Ep05</title>
     <desc lang="en">The hit reality show returns with an upgraded MC and high-profile guest stars. Each episode features region-inspired themes, high-energy challenges filled with laughter and fresh gameplay.</desc>
   </programme>
-  <programme start="20260523220000 +0800" stop="20260523230000 +0800" channel="308.astro">
+  <programme start="20260523223000 +0800" stop="20260523233000 +0800" channel="308.astro">
     <title lang="en">Lu Yu You Yue S12 Ep13</title>
     <desc lang="en">Chen Lu Yu debuts a new interview style merging conversations with on‑location filming, following guests documentary‑style as progressive questions reveal heartfelt stories and real‑time emotions.</desc>
   </programme>
-  <programme start="20260523230000 +0800" stop="20260524000000 +0800" channel="308.astro">
+  <programme start="20260523233000 +0800" stop="20260524003000 +0800" channel="308.astro">
     <title lang="en">Love Beyond The Grave Ep34</title>
     <desc lang="en">Ghost King He Simu, the ruler of all spirits, unexpectedly meets Duan Xu, a young general. A mortal and a 400-year-old demon, entangled in destiny, fight against the torrent of time with love.</desc>
   </programme>
-  <programme start="20260524000000 +0800" stop="20260524023000 +0800" channel="308.astro">
-    <title lang="en">Ride The Wind 2026 Ep11</title>
-    <desc lang="en">This season returns with a groundbreaking live-broadcast concept, streaming performances from opening stage to grand finale with no editing, no pitch correction, zero delay, showcasing the female power.</desc>
+  <programme start="20260524003000 +0800" stop="20260524023000 +0800" channel="308.astro">
+    <title lang="en">The Inn 2026 Ep12</title>
+    <desc lang="en">Dylan Wang is promoted to inn manager and together with Qin Lan, Shen Yue, Xu Zhi Sheng, Zoelly Wu &amp; Zhang Chen Xiao, they embark on a healing journey in Danzhou, Hainan.</desc>
   </programme>
   <programme start="20260524023000 +0800" stop="20260524033000 +0800" channel="308.astro">
     <title lang="en">China S3 Ep03</title>
@@ -29578,7 +29566,7 @@
   </programme>
   <programme start="20260524080000 +0800" stop="20260524083000 +0800" channel="308.astro">
     <title lang="en">The Story Of Soy Sauce Ep07</title>
-    <desc lang="en">In Chinese homes, soy sauce is more than just seasoning. This journey explores its regional uses in cuisine, uncovering the cultural flavors that define China&#x27;s diverse culinary heritage.</desc>
+    <desc lang="en">In Chinese homes, soy sauce is more than just seasoning. This journey explores its regional uses in cuisine, uncovering the cultural flavors that define China’s diverse culinary heritage.</desc>
   </programme>
   <programme start="20260524083000 +0800" stop="20260524093000 +0800" channel="308.astro">
     <title lang="en">Love Beyond The Grave Ep34</title>
@@ -29588,15 +29576,11 @@
     <title lang="en">Lu Yu You Yue S12 Ep13</title>
     <desc lang="en">Chen Lu Yu debuts a new interview style merging conversations with on‑location filming, following guests documentary‑style as progressive questions reveal heartfelt stories and real‑time emotions.</desc>
   </programme>
-  <programme start="20260524103000 +0800" stop="20260524110000 +0800" channel="308.astro">
-    <title lang="en">Atypical Family Ep09</title>
-    <desc lang="en">Hosted by Florica Lin, Li Sum Ling, &amp; Jim Yan, each episode tells the story of a different family, how they find a sense of belonging through emotional connections &amp; shared life experiences.</desc>
-  </programme>
-  <programme start="20260524110000 +0800" stop="20260524120000 +0800" channel="308.astro">
+  <programme start="20260524103000 +0800" stop="20260524113000 +0800" channel="308.astro">
     <title lang="en">Alliance Ep08</title>
     <desc lang="en">Once a top student, housewife Lin Shuang is forced to fight for the custody of her daughter in light of her husband&#x27;s betrayal. She returns to the workforce and cross paths with her ex-classmate.</desc>
   </programme>
-  <programme start="20260524120000 +0800" stop="20260524140000 +0800" channel="308.astro">
+  <programme start="20260524113000 +0800" stop="20260524140000 +0800" channel="308.astro">
     <title lang="en">Keep Running S14 Ep05</title>
     <desc lang="en">The hit reality show returns with an upgraded MC and high-profile guest stars. Each episode features region-inspired themes, high-energy challenges filled with laughter and fresh gameplay.</desc>
   </programme>
@@ -30192,15 +30176,15 @@
     <title lang="en">News Treasury 2025 Ep302</title>
     <desc lang="en">Explore the treasure trove of news, unearthing gems like classic features, series reports, and rare, never-before-seen footage.</desc>
   </programme>
-  <programme start="20260519064000 +0800" stop="20260519071000 +0800" channel="310.astro">
+  <programme start="20260519064000 +0800" stop="20260519070900 +0800" channel="310.astro">
     <title lang="en">Scoop 2026 Ep138</title>
     <desc lang="en">Get the inside scoop on artistes, social events and the entertainment industry, and go behind the scenes of current drama series.</desc>
   </programme>
-  <programme start="20260519071000 +0800" stop="20260519081000 +0800" channel="310.astro">
+  <programme start="20260519070900 +0800" stop="20260519081300 +0800" channel="310.astro">
     <title lang="en">Good Morning Hong Kong and Global View Ep19</title>
     <desc lang="en">This news bulletin keeps you ahead with breaking HK and international news, current affairs, finance, sports, weather and traffic updates.</desc>
   </programme>
-  <programme start="20260519081000 +0800" stop="20260519091000 +0800" channel="310.astro">
+  <programme start="20260519081300 +0800" stop="20260519091000 +0800" channel="310.astro">
     <title lang="en">Take My Word for it Ep30</title>
     <desc lang="en">This series depicts cases undertaken by the Police Negotiation Cadre, a HK police volunteer unit specializing in negotiations with terrorists, local criminals and suicidal individuals.</desc>
   </programme>
@@ -30212,15 +30196,15 @@
     <title lang="en">Hands up Ep1682</title>
     <desc lang="en">In this new TVB kids&#x27; show, children play themed games to boost their logic and physical fitness. They also perform on stage, make handicrafts and enjoy parent-child cooking sessions.</desc>
   </programme>
-  <programme start="20260519101000 +0800" stop="20260519104000 +0800" channel="310.astro">
+  <programme start="20260519101000 +0800" stop="20260519103700 +0800" channel="310.astro">
     <title lang="en">Don&#x27;t You Know Life Is a Journey? Ep01</title>
     <desc lang="en">Hosted by Jarvis Chow, this heartfelt journey uncovers inspiring lives across China &amp; Korea - from panda caretakers to Seoul trainees chasing dreams, revealing and life&#x27;s endless possibilities.</desc>
   </programme>
-  <programme start="20260519104000 +0800" stop="20260519104500 +0800" channel="310.astro">
+  <programme start="20260519103700 +0800" stop="20260519104200 +0800" channel="310.astro">
     <title lang="en">What&#x27;s On Today</title>
     <desc lang="en">What&#x27;s On Today</desc>
   </programme>
-  <programme start="20260519104500 +0800" stop="20260519111000 +0800" channel="310.astro">
+  <programme start="20260519104200 +0800" stop="20260519111000 +0800" channel="310.astro">
     <title lang="en">Solo Road Trip Ep07</title>
     <desc lang="en">Join Youtuber Ming Zai in the United Kingdom ! Revisit the history of the industrial revolution in Manchester, explore the medieval city of York, and go beyond to explore Northern Ireland.</desc>
   </programme>
@@ -30232,31 +30216,31 @@
     <title lang="en">Scoop 2026 Ep138</title>
     <desc lang="en">Get the inside scoop on artistes, social events and the entertainment industry, and go behind the scenes of current drama series.</desc>
   </programme>
-  <programme start="20260519124000 +0800" stop="20260519130500 +0800" channel="310.astro">
+  <programme start="20260519124000 +0800" stop="20260519130800 +0800" channel="310.astro">
     <title lang="en">Big Boys Club Ep2136</title>
     <desc lang="en">Hosted by Bob Lam, Jonathan Wong, Oscar Leung, Penny Chan and Ricky Fan, each episode brings fun and relaxed interviews with stars and icons from all walks of life!</desc>
   </programme>
-  <programme start="20260519130500 +0800" stop="20260519133000 +0800" channel="310.astro">
+  <programme start="20260519130800 +0800" stop="20260519133500 +0800" channel="310.astro">
     <title lang="en">Hands up Ep1682</title>
     <desc lang="en">In this new TVB kids&#x27; show, children play themed games to boost their logic and physical fitness. They also perform on stage, make handicrafts and enjoy parent-child cooking sessions.</desc>
   </programme>
-  <programme start="20260519133000 +0800" stop="20260519141500 +0800" channel="310.astro">
+  <programme start="20260519133500 +0800" stop="20260519141600 +0800" channel="310.astro">
     <title lang="en">Big City Shop 2026 Ep1982</title>
     <desc lang="en">Get firsthand recommendations as hosts try out the hottest products in health and wellness, fitness, skin care and beauty, fashion and accessories , baby care, food - and more.</desc>
   </programme>
-  <programme start="20260519141500 +0800" stop="20260519144000 +0800" channel="310.astro">
+  <programme start="20260519141600 +0800" stop="20260519144400 +0800" channel="310.astro">
     <title lang="en">Lo and Behold Ep2809</title>
     <desc lang="en">Revolving around the Hung family, this long-running, award-winning TVB sitcom reflects on life today and how love and humour can bridge the generation gap.</desc>
   </programme>
-  <programme start="20260519144000 +0800" stop="20260519154000 +0800" channel="310.astro">
+  <programme start="20260519144400 +0800" stop="20260519153600 +0800" channel="310.astro">
     <title lang="en">Treasure at Dawn Ep05</title>
     <desc lang="en">Falsely accused, young healer Fu Sheng follows his father&#x27;s letter linking him to the location of a mysterious Heavenly Book. He journeys to Liangzhou, facing dangers and uncovering hidden truths.</desc>
   </programme>
-  <programme start="20260519154000 +0800" stop="20260519154500 +0800" channel="310.astro">
+  <programme start="20260519153600 +0800" stop="20260519154100 +0800" channel="310.astro">
     <title lang="en">What&#x27;s On Today</title>
     <desc lang="en">What&#x27;s On Today</desc>
   </programme>
-  <programme start="20260519154500 +0800" stop="20260519161000 +0800" channel="310.astro">
+  <programme start="20260519154100 +0800" stop="20260519161000 +0800" channel="310.astro">
     <title lang="en">Don&#x27;t You Know Life Is a Journey? Ep01</title>
     <desc lang="en">Hosted by Jarvis Chow, this heartfelt journey uncovers inspiring lives across China &amp; Korea - from panda caretakers to Seoul trainees chasing dreams, revealing and life&#x27;s endless possibilities.</desc>
   </programme>
@@ -30276,35 +30260,35 @@
     <title lang="en">Sword and Fairy Ep03</title>
     <desc lang="en">Li Xiao Yao, a young man with dreams of heroism, becomes entwined with Zhao Ling Er, a descendant of Nuwa. Together, they embark on a perilous quest to to safeguard humanity and bring peace.</desc>
   </programme>
-  <programme start="20260519184000 +0800" stop="20260519194000 +0800" channel="310.astro">
+  <programme start="20260519184000 +0800" stop="20260519193500 +0800" channel="310.astro">
     <title lang="en">News at 18:30 and Global View Ep19</title>
     <desc lang="en">Daily breaking news on Hong Kong and beyond.</desc>
   </programme>
-  <programme start="20260519194000 +0800" stop="20260519194500 +0800" channel="310.astro">
+  <programme start="20260519193500 +0800" stop="20260519194500 +0800" channel="310.astro">
     <title lang="en">What&#x27;s On Today</title>
     <desc lang="en">What&#x27;s On Today</desc>
   </programme>
-  <programme start="20260519194500 +0800" stop="20260519201000 +0800" channel="310.astro">
+  <programme start="20260519194500 +0800" stop="20260519201300 +0800" channel="310.astro">
     <title lang="en">Scoop 2026 Ep139</title>
     <desc lang="en">Get the inside scoop on artistes, social events and the entertainment industry, and go behind the scenes of current drama series.</desc>
   </programme>
-  <programme start="20260519201000 +0800" stop="20260519204000 +0800" channel="310.astro">
+  <programme start="20260519201300 +0800" stop="20260519204300 +0800" channel="310.astro">
     <title lang="en">Lo and Behold Ep2810</title>
     <desc lang="en">Revolving around the Hung family, this long-running, award-winning TVB sitcom reflects on life today and how love and humour can bridge the generation gap.</desc>
   </programme>
-  <programme start="20260519204000 +0800" stop="20260519214000 +0800" channel="310.astro">
+  <programme start="20260519204300 +0800" stop="20260519214100 +0800" channel="310.astro">
     <title lang="en">The Map Of Truth Ep02</title>
     <desc lang="en">Paranormal guru Chong Yat Sun gains fame through his channel exploring HK&#x27;s urban legends. When debunker But Ping exposes his supernatural claims with science, their rivalry uncovers secret pasts.</desc>
   </programme>
-  <programme start="20260519214000 +0800" stop="20260519224000 +0800" channel="310.astro">
+  <programme start="20260519214100 +0800" stop="20260519224100 +0800" channel="310.astro">
     <title lang="en">Treasure at Dawn Ep06</title>
     <desc lang="en">Falsely accused, young healer Fu Sheng follows his father&#x27;s letter linking him to the location of a mysterious Heavenly Book. He journeys to Liangzhou, facing dangers and uncovering hidden truths.</desc>
   </programme>
-  <programme start="20260519224000 +0800" stop="20260519231000 +0800" channel="310.astro">
+  <programme start="20260519224100 +0800" stop="20260519231100 +0800" channel="310.astro">
     <title lang="en">Don&#x27;t You Know Life Is a Journey? Ep02</title>
     <desc lang="en">Hosted by Jarvis Chow, this heartfelt journey uncovers inspiring lives across China &amp; Korea - from panda caretakers to Seoul trainees chasing dreams, revealing and life&#x27;s endless possibilities.</desc>
   </programme>
-  <programme start="20260519231000 +0800" stop="20260519232500 +0800" channel="310.astro">
+  <programme start="20260519231100 +0800" stop="20260519232500 +0800" channel="310.astro">
     <title lang="en">EXTRA Ep4020</title>
     <desc lang="en">This entertainment news show features the hottest events, awards, shows, movies, concerts and artists interviews in Hong Kong and around the world.</desc>
   </programme>
@@ -30321,18 +30305,18 @@
     <desc lang="en">Hosted by Bob Lam, Jonathan Wong, Oscar Leung, Penny Chan and Ricky Fan, each episode brings fun and relaxed interviews with stars and icons from all walks of life!</desc>
   </programme>
   <programme start="20260520004000 +0800" stop="20260520014000 +0800" channel="310.astro">
-    <title lang="en">Take My Word for it Ep30</title>
-    <desc lang="en">This series depicts cases undertaken by the Police Negotiation Cadre, a HK police volunteer unit specializing in negotiations with terrorists, local criminals and suicidal individuals.</desc>
+    <title lang="en">Treasure at Dawn Ep06</title>
+    <desc lang="en">Falsely accused, young healer Fu Sheng follows his father&#x27;s letter linking him to the location of a mysterious Heavenly Book. He journeys to Liangzhou, facing dangers &amp; uncovering hidden truths.</desc>
   </programme>
-  <programme start="20260520014000 +0800" stop="20260520024000 +0800" channel="310.astro">
+  <programme start="20260520014000 +0800" stop="20260520023500 +0800" channel="310.astro">
     <title lang="en">The Map Of Truth Ep02</title>
     <desc lang="en">Paranormal guru Chong Yat Sun gains fame through his channel exploring HK&#x27;s urban legends. When debunker But Ping exposes his supernatural claims with science, their rivalry uncovers secret pasts.</desc>
   </programme>
-  <programme start="20260520024000 +0800" stop="20260520024500 +0800" channel="310.astro">
+  <programme start="20260520023500 +0800" stop="20260520024000 +0800" channel="310.astro">
     <title lang="en">What&#x27;s On Today</title>
     <desc lang="en">What&#x27;s On Today</desc>
   </programme>
-  <programme start="20260520024500 +0800" stop="20260520031000 +0800" channel="310.astro">
+  <programme start="20260520024000 +0800" stop="20260520031000 +0800" channel="310.astro">
     <title lang="en">Lo and Behold Ep2810</title>
     <desc lang="en">Revolving around the Hung family, this long-running, award-winning TVB sitcom reflects on life today and how love and humour can bridge the generation gap.</desc>
   </programme>
@@ -30489,8 +30473,8 @@
     <desc lang="en">Hosted by Bob Lam, Jonathan Wong, Oscar Leung, Penny Chan and Ricky Fan, each episode brings fun and relaxed interviews with stars and icons from all walks of life!</desc>
   </programme>
   <programme start="20260521004000 +0800" stop="20260521014000 +0800" channel="310.astro">
-    <title lang="en">Angels of Mission Ep01</title>
-    <desc lang="en">Three former Miss HK&#x27;s Charmaine Sheh, Sonija Kwok and Shirley Yeung form a hot anti-terrorism unit, setting aside their personal differences to fight evil.</desc>
+    <title lang="en">Treasure at Dawn Ep07</title>
+    <desc lang="en">Falsely accused, young healer Fu Sheng follows his father&#x27;s letter linking him to the location of a mysterious Heavenly Book. He journeys to Liangzhou, facing dangers and uncovering hidden truths.</desc>
   </programme>
   <programme start="20260521014000 +0800" stop="20260521024000 +0800" channel="310.astro">
     <title lang="en">The Map Of Truth Ep03</title>
@@ -44436,11 +44420,11 @@
     <title lang="en">SEA Director Focus Interview : Boo Junfeng</title>
     <desc lang="en">This project focusing on South East Asian Award Winning and Critically Acclaimed Directors and as part of the A-List Inspiring South East Asia Film maker&#x27;s project.</desc>
   </programme>
-  <programme start="20260520060000 +0800" stop="20260520061500 +0800" channel="411.astro">
+  <programme start="20260520060000 +0800" stop="20260520062000 +0800" channel="411.astro">
     <title lang="en">Censored</title>
     <desc lang="en">Klaus is trying to send a love letter to his girlfriend who studying aboard. However all of his letters are censored.</desc>
   </programme>
-  <programme start="20260520061500 +0800" stop="20260520080000 +0800" channel="411.astro">
+  <programme start="20260520062000 +0800" stop="20260520080000 +0800" channel="411.astro">
     <title lang="en">Black Water: Abyss</title>
     <desc lang="en">Trapped in a flooded cave, a group of adventurers fighting for survival realise they have another thing to worry about: a pack of hungry crocodiles.</desc>
   </programme>
@@ -44452,47 +44436,47 @@
     <title lang="en">A Simple Favor</title>
     <desc lang="en">Stephanie is a single mother who befriends Emily, an upper-class woman who has a child at the same elementary school. When Emily goes missing, Stephanie takes it upon herself to investigate.</desc>
   </programme>
-  <programme start="20260520121500 +0800" stop="20260520134500 +0800" channel="411.astro">
+  <programme start="20260520121500 +0800" stop="20260520135000 +0800" channel="411.astro">
     <title lang="en">Notorious Nick</title>
     <desc lang="en">Nick Newell, a one-armed MMA fighter, gets a rare chance to fight for the lightweight championship. He strives to win for himself and all the other people in the world with physical challenges.</desc>
   </programme>
-  <programme start="20260520134500 +0800" stop="20260520160000 +0800" channel="411.astro">
+  <programme start="20260520135000 +0800" stop="20260520160500 +0800" channel="411.astro">
     <title lang="en">Fast &amp; Furious 6</title>
     <desc lang="en">Dominic Toretto dan krewnya hidup mewah selepas rompakan sebelum ini tetapi rekod jenayah menghalang mereka pulang ke tempat asal.</desc>
   </programme>
-  <programme start="20260520160000 +0800" stop="20260520180000 +0800" channel="411.astro">
+  <programme start="20260520160500 +0800" stop="20260520180000 +0800" channel="411.astro">
     <title lang="en">The Foreigner</title>
     <desc lang="en">Businessman with a buried past seeks justice when his daughter is killed in an act of terrorism.</desc>
   </programme>
-  <programme start="20260520180000 +0800" stop="20260520200000 +0800" channel="411.astro">
+  <programme start="20260520180000 +0800" stop="20260520195700 +0800" channel="411.astro">
     <title lang="en">Bleeding Steel</title>
     <desc lang="en">A Special Forces Agent is assigned to protect a scientist and his creation from a sinister gang.</desc>
   </programme>
-  <programme start="20260520200000 +0800" stop="20260520220000 +0800" channel="411.astro">
+  <programme start="20260520195700 +0800" stop="20260520220000 +0800" channel="411.astro">
     <title lang="en">To Catch A Killer</title>
     <desc lang="en">An intuitive but troubled police officer is recruited by an FBI expert to stop a relentless shooter who is terrorizing Baltimore.</desc>
   </programme>
-  <programme start="20260520220000 +0800" stop="20260521003000 +0800" channel="411.astro">
+  <programme start="20260520220000 +0800" stop="20260521002800 +0800" channel="411.astro">
     <title lang="en">Fast &amp; Furious 9</title>
     <desc lang="en">Dom Toretto&#x27;s peace and quiet is shattered when the sins of his past catches up to him in the form of his forsaken brother, putting the lives of his loves ones in danger.</desc>
   </programme>
-  <programme start="20260521003000 +0800" stop="20260521021500 +0800" channel="411.astro">
+  <programme start="20260521002800 +0800" stop="20260521021300 +0800" channel="411.astro">
     <title lang="en">Black Water: Abyss</title>
     <desc lang="en">Trapped in a flooded cave, a group of adventurers fighting for survival realise they have another thing to worry about: a pack of hungry crocodiles.</desc>
   </programme>
-  <programme start="20260521021500 +0800" stop="20260521024500 +0800" channel="411.astro">
+  <programme start="20260521021300 +0800" stop="20260521024200 +0800" channel="411.astro">
     <title lang="en">SEA Director Focus Interview : Boo Junfeng</title>
     <desc lang="en">This project focusing on South East Asian Award Winning and Critically Acclaimed Directors and as part of the A-List Inspiring South East Asia Film maker&#x27;s project.</desc>
   </programme>
-  <programme start="20260521024500 +0800" stop="20260521031500 +0800" channel="411.astro">
+  <programme start="20260521024200 +0800" stop="20260521031300 +0800" channel="411.astro">
     <title lang="en">SEA Director Focus Interview : Garin Nugroho</title>
     <desc lang="en">This project focusing on South East Asian Award Winning and Critically Acclaimed Directors and as part of the A-List Inspiring South East Asia Film maker&#x27;s project.</desc>
   </programme>
-  <programme start="20260521031500 +0800" stop="20260521053000 +0800" channel="411.astro">
+  <programme start="20260521031300 +0800" stop="20260521053500 +0800" channel="411.astro">
     <title lang="en">The Fate of the Furious</title>
     <desc lang="en">When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.</desc>
   </programme>
-  <programme start="20260521053000 +0800" stop="20260521060000 +0800" channel="411.astro">
+  <programme start="20260521053500 +0800" stop="20260521060000 +0800" channel="411.astro">
     <title lang="en">SEA Director Focus Interview : Pen-Ek Ratanaruang</title>
     <desc lang="en">This project focusing on South East Asian Award Winning and Critically Acclaimed Directors and as part of the A-List Inspiring South East Asia Film maker&#x27;s project.</desc>
   </programme>
@@ -45349,8 +45333,8 @@
     <desc lang="en">Mencari Kedai Lejen uncovers F&amp;B heroes turning humble recipes into thriving businesses. AstroBiz presents 2 eateries, 2 flavours, one thing in common: lejen.</desc>
   </programme>
   <programme start="20260520213000 +0800" stop="20260520220000 +0800" channel="413.astro">
-    <title lang="en">Minions : The Rise of Gru (Sneak Peek)</title>
-    <desc lang="en">Sneak Peek of Minions: The Rise of Gru</desc>
+    <title lang="en">The Making of The Furious</title>
+    <desc lang="en">&quot;Watch The Making of The Furious&quot;</desc>
   </programme>
   <programme start="20260520220000 +0800" stop="20260520234500 +0800" channel="413.astro">
     <title lang="en">The Humanity Bureau</title>
@@ -48758,7 +48742,7 @@
   </programme>
   <programme start="20260518170000 +0800" stop="20260518173000 +0800" channel="502.astro">
     <title lang="en">(L) Malaysia Petang Ini</title>
-    <desc lang="en">Platform kupasan peristiwa penting dan kemaskini perkembangan semasa dalam negara, dirangkum setiap petang dalam Malaysia Petang Ini.</desc>
+    <desc lang="en">Pelan Intervensi, Hadapi Krisis Gangguan Rantaian Bekalan bersama Prof. Dr. Mohd Abdullah Hj. Jusoh, Fakulti Pengajian dan Pengurusan Pertahanan, Universiti Pertahanan Nasional Malaysia (UPNM).</desc>
   </programme>
   <programme start="20260518173000 +0800" stop="20260518180000 +0800" channel="502.astro">
     <title lang="en">Radio@TV</title>
@@ -48789,12 +48773,12 @@
     <desc lang="en">Laporan terkini berita dari dalam dan luar negara.</desc>
   </programme>
   <programme start="20260518203000 +0800" stop="20260518210000 +0800" channel="502.astro">
-    <title lang="en">(L) Darah Muda</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <title lang="en">Darah Muda</title>
+    <desc lang="en">Menyusuri Perjalanan Seni Didie Syazry bersama Didie Syazry, Penyanyi dan Penulis Lagu.</desc>
   </programme>
   <programme start="20260518210000 +0800" stop="20260518220000 +0800" channel="502.astro">
-    <title lang="en">(L) Ruang Bicara</title>
-    <desc lang="en">MADANI 2026: Komunikasi Strategik, Keyakinan Rakyat-bersama Datuk Dr. Budiman Mohd Zohdi, Penasihat Strategik Jabatan Komunikasi Komuniti (J-KOM).</desc>
+    <title lang="en">Ruang Bicara</title>
+    <desc lang="en">Hantavirus: Virus Tikus Rentas Sempadan bersama Dr. Siti Aisah Mokhtar, Pakar Perubatan Kesihatan Awam, Fakulti Perubatan dan Sains Kesihatan, Universiti Putra Malaysia (UPM).</desc>
   </programme>
   <programme start="20260518220000 +0800" stop="20260518223000 +0800" channel="502.astro">
     <title lang="en">Berita Mandarin RTM - Bernama TV</title>
@@ -48814,7 +48798,7 @@
   </programme>
   <programme start="20260519000000 +0800" stop="20260519010000 +0800" channel="502.astro">
     <title lang="en">Ruang Bicara</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <desc lang="en">Hantavirus: Virus Tikus Rentas Sempadan bersama Dr. Siti Aisah Mokhtar, Pakar Perubatan Kesihatan Awam, Fakulti Perubatan dan Sains Kesihatan, Universiti Putra Malaysia (UPM).</desc>
   </programme>
   <programme start="20260519010000 +0800" stop="20260519013000 +0800" channel="502.astro">
     <title lang="en">Buletin Bernama</title>
@@ -48858,7 +48842,7 @@
   </programme>
   <programme start="20260519063000 +0800" stop="20260519073000 +0800" channel="502.astro">
     <title lang="en">Ruang Bicara</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <desc lang="en">Hantavirus: Virus Tikus Rentas Sempadan bersama Dr. Siti Aisah Mokhtar, Pakar Perubatan Kesihatan Awam, Fakulti Perubatan dan Sains Kesihatan, Universiti Putra Malaysia (UPM).</desc>
   </programme>
   <programme start="20260519073000 +0800" stop="20260519080000 +0800" channel="502.astro">
     <title lang="en">Buletin Bernama</title>
@@ -48878,7 +48862,7 @@
   </programme>
   <programme start="20260519100000 +0800" stop="20260519110000 +0800" channel="502.astro">
     <title lang="en">Ruang Bicara</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <desc lang="en">Hantavirus: Virus Tikus Rentas Sempadan bersama Dr. Siti Aisah Mokhtar, Pakar Perubatan Kesihatan Awam, Fakulti Perubatan dan Sains Kesihatan, Universiti Putra Malaysia (UPM).</desc>
   </programme>
   <programme start="20260519110000 +0800" stop="20260519113000 +0800" channel="502.astro">
     <title lang="en">(L) Buletin Bernama</title>
@@ -48906,7 +48890,7 @@
   </programme>
   <programme start="20260519133000 +0800" stop="20260519140000 +0800" channel="502.astro">
     <title lang="en">Darah Muda</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <desc lang="en">Menyusuri Perjalanan Seni Didie Syazry bersama Didie Syazry, Penyanyi dan Penulis Lagu.</desc>
   </programme>
   <programme start="20260519140000 +0800" stop="20260519143000 +0800" channel="502.astro">
     <title lang="en">(L) Bernama World</title>
@@ -49002,7 +48986,7 @@
   </programme>
   <programme start="20260520020000 +0800" stop="20260520030000 +0800" channel="502.astro">
     <title lang="en">Ruang Bicara</title>
-    <desc lang="en">Bersama tetamu di studio mengupas topik semasa tanahair.</desc>
+    <desc lang="en">Hantavirus: Virus Tikus Rentas Sempadan bersama Dr. Siti Aisah Mokhtar, Pakar Perubatan Kesihatan Awam, Fakulti Perubatan dan Sains Kesihatan, Universiti Putra Malaysia (UPM).</desc>
   </programme>
   <programme start="20260520030000 +0800" stop="20260520033000 +0800" channel="502.astro">
     <title lang="en">Buletin Bernama</title>
@@ -54201,8 +54185,8 @@
     <desc lang="en">Up-to-date news and analysis from around the world.</desc>
   </programme>
   <programme start="20260522043200 +0800" stop="20260522050200 +0800" channel="513.astro">
-    <title lang="en">101 East</title>
-    <desc lang="en">101 East reports on the people and events shaping the Asia Pacific region. .</desc>
+    <title lang="en">101 East Ep277</title>
+    <desc lang="en">101 East investigates the escalation and significance of maritime skirmishes between China and the Philippines in the South China Sea.</desc>
   </programme>
   <programme start="20260522050200 +0800" stop="20260522060200 +0800" channel="513.astro">
     <title lang="en">Newshour</title>
@@ -88112,9 +88096,13 @@
     <title lang="en">NSL Klinik 2026: Tenby School</title>
     <desc lang="en">NSL Klinik 2026 Tenby Schools, Ipoh, Perak.</desc>
   </programme>
-  <programme start="20260518103000 +0800" stop="20260518120000 +0800" channel="801.astro">
+  <programme start="20260518103000 +0800" stop="20260518112400 +0800" channel="801.astro">
     <title lang="en">(L) ISTAF Sepak Takraw WC 2026: SGP lwn MAS</title>
     <desc lang="en">(Langsung) ISTAF Sepak Takraw World Cup 2026 Regu: Singapura lwn Malaysia dari Kuala Lumpur.</desc>
+  </programme>
+  <programme start="20260518112400 +0800" stop="20260518120000 +0800" channel="801.astro">
+    <title lang="en">Sorotan UCI Track WC 2026: Azizul Hasni Awang</title>
+    <desc lang="en">Sorotan aksi-aksi menarik UCI Track World Cup 2026: Azizul Hasni Awang.</desc>
   </programme>
   <programme start="20260518120000 +0800" stop="20260518130000 +0800" channel="801.astro">
     <title lang="en">Nadi Weekend</title>
@@ -89634,23 +89622,23 @@
   </programme>
   <programme start="20260518100000 +0800" stop="20260518120000 +0800" channel="804.astro">
     <title lang="en">Serie A 2025/26: SAS lwn LEC</title>
-    <desc lang="en">Serie A 2025/26: Sassuolo lwn Lecce dari Stadium Mapei- Citta del Tricolore, Reggio Emilia, Itali.</desc>
+    <desc lang="en">Serie A 2025/26: Sassuolo lwn Lecce dari Stadium Mapei- Città del Tricolore, Reggio Emilia, Itali.</desc>
   </programme>
   <programme start="20260518120000 +0800" stop="20260518140000 +0800" channel="804.astro">
     <title lang="en">MSL 2025/26: DPMM lwn TER</title>
     <desc lang="en">Liga Super 2025/26 perlawanan ke-13: DPMM lwn Terengganu dari Stadium Negara Hassanal Bolkiah, Berakas, Brunei.</desc>
   </programme>
-  <programme start="20260518140000 +0800" stop="20260518160000 +0800" channel="804.astro">
+  <programme start="20260518140000 +0800" stop="20260518160100 +0800" channel="804.astro">
     <title lang="en">Serie A 2025/26: GEN lwn MIL</title>
     <desc lang="en">Serie A 2025/26: Genoa lwn AC Milan dari Stadium Luigi Ferraris, Genoa, Itali.</desc>
   </programme>
-  <programme start="20260518160000 +0800" stop="20260518180000 +0800" channel="804.astro">
+  <programme start="20260518160100 +0800" stop="20260518180000 +0800" channel="804.astro">
     <title lang="en">AFC Two 2025/26: GOK lwn RBFG</title>
     <desc lang="en">AFC Champions League Two 2025/26: Gamba Osaka lwn Ratchaburi FC dari Stadium Suita City Football, Suita, Jepun.</desc>
   </programme>
   <programme start="20260518180000 +0800" stop="20260518200000 +0800" channel="804.astro">
     <title lang="en">Serie A 2025/26: SAS lwn LEC</title>
-    <desc lang="en">Serie A 2025/26: Sassuolo lwn Lecce dari Stadium Mapei- Citta del Tricolore, Reggio Emilia, Itali.</desc>
+    <desc lang="en">Serie A 2025/26: Sassuolo lwn Lecce dari Stadium Mapei- Città del Tricolore, Reggio Emilia, Itali.</desc>
   </programme>
   <programme start="20260518200000 +0800" stop="20260518220000 +0800" channel="804.astro">
     <title lang="en">Piala FA 2025/26: MUN lwn SEL</title>
@@ -89712,17 +89700,13 @@
     <title lang="en">ACL Women&#x27;s Champions : Naegohyang lwn ISPE WFC</title>
     <desc lang="en">ACL Women&#x27;s Champions League 2025/26: Naegohyang Women&#x27;s FC lwn ISPE WFC dari Stadium Thuwunna Youth Training Center, Yangon, Myanmar.</desc>
   </programme>
-  <programme start="20260520020000 +0800" stop="20260520021000 +0800" channel="804.astro">
-    <title lang="en">NYDL: This is Our Time</title>
-    <desc lang="en">Perjalanan Marissa dan rakan sepasukannya dalam atasi perbezaan budaya dan membina kerjasama antara ahli pasukan New York Dutch Lions.</desc>
+  <programme start="20260520020000 +0800" stop="20260520040000 +0800" channel="804.astro">
+    <title lang="en">ACL Women&#x27;s Champions : Melbourne lwn Ho Chi Minh City</title>
+    <desc lang="en">ACL Women&#x27;s Champions League 2025/26: Melbourne City FC lwn Ho Chi Minh City Women&#x27;s FC dari Stadium Thong Nhat, Ho Chi Minh City, Vietnam.</desc>
   </programme>
-  <programme start="20260520021000 +0800" stop="20260520022000 +0800" channel="804.astro">
-    <title lang="en">NYDL: This is Our Time</title>
-    <desc lang="en">Perjalanan Marissa dan rakan sepasukannya dalam atasi perbezaan budaya dan membina kerjasama antara ahli pasukan New York Dutch Lions.</desc>
-  </programme>
-  <programme start="20260520022000 +0800" stop="20260520043000 +0800" channel="804.astro">
-    <title lang="en">(L) AFC U17 Asian Cup 2026: Separuh Akhir</title>
-    <desc lang="en">(Langsung) AFC U17 Asian Cup 2026: Perlawanan separuh akhir dari Stadium King Abdullah Sport City, Jeddah, Arab Saudi.</desc>
+  <programme start="20260520040000 +0800" stop="20260520043000 +0800" channel="804.astro">
+    <title lang="en">Botak Terjah Stadium</title>
+    <desc lang="en">Kalau Abang Botak bagi mic, jangan lari! Botak Terjah Stadium membawakan perkembangan Liga Malaysia 2025/26 dari perspektif peminat-peminat bola sepak negara.</desc>
   </programme>
   <programme start="20260520043000 +0800" stop="20260520050000 +0800" channel="804.astro">
     <title lang="en">Sorotan MSL 2025/26: PEN lwn TER</title>
@@ -89745,8 +89729,8 @@
     <desc lang="en">Liga Super 2025/26 perlawanan ke-46: Negeri Sembilan lwn PDRM dari Stadium Tuanku Abdul Rahman, Paroi, Negeri Sembilan.</desc>
   </programme>
   <programme start="20260520100000 +0800" stop="20260520120000 +0800" channel="804.astro">
-    <title lang="en">AFC U17 Asian Cup 2026: Separuh Akhir</title>
-    <desc lang="en">AFC U17 Asian Cup 2026: Perlawanan separuh akhir dari Stadium King Abdullah Sport City, Jeddah, Arab Saudi.</desc>
+    <title lang="en">MSL 2025/26: SEL lwn KLC</title>
+    <desc lang="en">Liga Super 2025/26 perlawanan ke-48: Selangor FC lwn Kuala Lumpur City dari Stadium Majlis Bandaraya Petaling Jaya, Selangor.</desc>
   </programme>
   <programme start="20260520120000 +0800" stop="20260520123000 +0800" channel="804.astro">
     <title lang="en">Botak Terjah Stadium</title>
@@ -89777,8 +89761,8 @@
     <desc lang="en">AFC Champions League Two 2025/26: Esteghlal FC lwn Al Hussein dari Stadium Al-Maktoum, Dubai, UAE.</desc>
   </programme>
   <programme start="20260520180000 +0800" stop="20260520200000 +0800" channel="804.astro">
-    <title lang="en">AFC U17 Asian Cup 2026: Separuh Akhir</title>
-    <desc lang="en">AFC U17 Asian Cup 2026: Perlawanan separuh akhir dari Stadium King Abdullah Sport City, Jeddah, Arab Saudi.</desc>
+    <title lang="en">AFC Two 2025/26: ZAW lwn WAS</title>
+    <desc lang="en">AFC Champions League Two 2025/26: Al Zawraa SC lwn Al Wasl FC dari Stadium Hamad bin Khalifa, Doha, Qatar.</desc>
   </programme>
   <programme start="20260520200000 +0800" stop="20260520203000 +0800" channel="804.astro">
     <title lang="en">Sorotan MSL 2025/26: SEL lwn DPMM</title>
@@ -90496,9 +90480,13 @@
     <title lang="en">PL: Everton vs Sunderland</title>
     <desc lang="en">Premier League 2025/26: Match Week 37: Everton vs. Sunderland, from Hill Dickinson Stadium.</desc>
   </programme>
-  <programme start="20260518123000 +0800" stop="20260518160000 +0800" channel="810.astro">
+  <programme start="20260518123000 +0800" stop="20260518154000 +0800" channel="810.astro">
     <title lang="en">PL: Aston Villa vs Liverpool</title>
     <desc lang="en">Premier League 2025/26: Match Week 37: Aston Villa vs. Liverpool, from Villa Park.</desc>
+  </programme>
+  <programme start="20260518154000 +0800" stop="20260518160000 +0800" channel="810.astro">
+    <title lang="en">This Is Our Time:</title>
+    <desc lang="en">Behind the label of a development club, New York Dutch Lions FC helps athletes sharpen their game and identity, seen clearly through the growth of Malaysia’s Marissa Aleya.</desc>
   </programme>
   <programme start="20260518160000 +0800" stop="20260518181000 +0800" channel="810.astro">
     <title lang="en">PL: Newcastle vs West Ham</title>
@@ -90508,9 +90496,13 @@
     <title lang="en">DFB: SF Highlights</title>
     <desc lang="en">Highlights of all the matches played in DFB Pokal: Semi Finals, including players and managers interviews.</desc>
   </programme>
-  <programme start="20260518183000 +0800" stop="20260518220000 +0800" channel="810.astro">
+  <programme start="20260518183000 +0800" stop="20260518214000 +0800" channel="810.astro">
     <title lang="en">FA Cup: Chelsea vs Man City</title>
     <desc lang="en">Emirates FA Cup 2025/26: Finals: Chelsea vs Manchester City, from Wembley Stadium, London, England.</desc>
+  </programme>
+  <programme start="20260518214000 +0800" stop="20260518220000 +0800" channel="810.astro">
+    <title lang="en">This Is Our Time:</title>
+    <desc lang="en">Behind the label of a development club, New York Dutch Lions FC helps athletes sharpen their game and identity, seen clearly through the growth of Malaysia’s Marissa Aleya.</desc>
   </programme>
   <programme start="20260518220000 +0800" stop="20260519001000 +0800" channel="810.astro">
     <title lang="en">PL: Man Utd vs Nottm Forest</title>
@@ -90942,7 +90934,7 @@
   </programme>
   <programme start="20260519210000 +0800" stop="20260519220000 +0800" channel="811.astro">
     <title lang="en">PLTV: The Final Word</title>
-    <desc lang="en">Linked to Monday night fixtures, Michael Owen and special guests will join Steve Bower to give the definitive verdict on the weekend&#x27;s action.</desc>
+    <desc lang="en">Linked to Monday night fixtures, Michael Owen and special guests will join Steve Bower to give the definitive verdict on the weekend’s action.</desc>
   </programme>
   <programme start="20260519220000 +0800" stop="20260520001000 +0800" channel="811.astro">
     <title lang="en">PL: Arsenal vs Burnley</title>
@@ -91001,8 +90993,8 @@
     <desc lang="en">Each Premier League game from the 2025/26 season condensed into an individual 26-minute highlights show.</desc>
   </programme>
   <programme start="20260520200000 +0800" stop="20260520210000 +0800" channel="811.astro">
-    <title lang="en">No information available</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">PL Review 2025/26: Week 37</title>
+    <desc lang="en">Review incorporates all the key moments and manager reaction from every fixture, making it a must-see programme for all Premier League fans.</desc>
   </programme>
   <programme start="20260520210000 +0800" stop="20260520213000 +0800" channel="811.astro">
     <title lang="en">Netbusters 2025/26: Ep37</title>
@@ -91022,19 +91014,19 @@
   </programme>
   <programme start="20260521050000 +0800" stop="20260521060000 +0800" channel="811.astro">
     <title lang="en">PLTV: The Final Word</title>
-    <desc lang="en">Linked to Monday night fixtures, Michael Owen and special guests will join Steve Bower to give the definitive verdict on the weekend&#x27;s action.</desc>
+    <desc lang="en">Linked to Monday night fixtures, Michael Owen and special guests will join Steve Bower to give the definitive verdict on the weekend’s action.</desc>
   </programme>
   <programme start="20260521060000 +0800" stop="20260521081000 +0800" channel="811.astro">
-    <title lang="en">PL: Brentford vs Crystal Palace</title>
-    <desc lang="en">Premier League 2025/26: Match Week 37: Brentford vs. Crystal Palace, from Gtech Community Stadium.</desc>
+    <title lang="en">No information available</title>
+    <desc lang="en">No information available</desc>
   </programme>
   <programme start="20260521081000 +0800" stop="20260521102000 +0800" channel="811.astro">
     <title lang="en">PL: Arsenal vs Burnley</title>
     <desc lang="en">Premier League 2025/26: Match Week 37: Arsenal vs. Burnley, from Emirates Stadium.</desc>
   </programme>
   <programme start="20260521102000 +0800" stop="20260521112000 +0800" channel="811.astro">
-    <title lang="en">No information available</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">PL Review 2025/26: Week 37</title>
+    <desc lang="en">Review incorporates all the key moments and manager reaction from every fixture, making it a must-see programme for all Premier League fans.</desc>
   </programme>
   <programme start="20260521112000 +0800" stop="20260521115000 +0800" channel="811.astro">
     <title lang="en">Netbusters 2025/26: Ep37</title>
@@ -91057,8 +91049,8 @@
     <desc lang="en">Jonjo Shelvey traces his journey through the Premier League. From the pressure of playing for Liverpool to finding his rhythm at Swansea City, and becoming a cult hero at Newcastle United.</desc>
   </programme>
   <programme start="20260521210000 +0800" stop="20260521213000 +0800" channel="811.astro">
-    <title lang="en">PLTV: PL Stories 2025/26</title>
-    <desc lang="en">PLTV: PL Stories 2025/26</desc>
+    <title lang="en">PL Stories 2025/26: Leicester City - 5000/1</title>
+    <desc lang="en">Ten years on from one of football’s greatest sporting shocks, we revisit the extraordinary story of Leicester City’s Premier League title-winning season.</desc>
   </programme>
   <programme start="20260521213000 +0800" stop="20260521234000 +0800" channel="811.astro">
     <title lang="en">PL: Man Utd vs Nottm Forest</title>
@@ -91089,12 +91081,12 @@
     <desc lang="en">Premier League 2025/26: Match Week 37: Brentford vs. Crystal Palace, from Gtech Community Stadium.</desc>
   </programme>
   <programme start="20260522134000 +0800" stop="20260522144000 +0800" channel="811.astro">
-    <title lang="en">No information available</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">PL Review 2025/26: Week 37</title>
+    <desc lang="en">Review incorporates all the key moments and manager reaction from every fixture, making it a must-see programme for all Premier League fans.</desc>
   </programme>
   <programme start="20260522144000 +0800" stop="20260522151000 +0800" channel="811.astro">
-    <title lang="en">PLTV: PL Stories 2025/26</title>
-    <desc lang="en">PLTV: PL Stories 2025/26</desc>
+    <title lang="en">PL Stories 2025/26: Leicester City - 5000/1</title>
+    <desc lang="en">Ten years on from one of football’s greatest sporting shocks, we revisit the extraordinary story of Leicester City’s Premier League title-winning season.</desc>
   </programme>
   <programme start="20260522151000 +0800" stop="20260522172000 +0800" channel="811.astro">
     <title lang="en">PL: Everton vs Sunderland</title>
@@ -91125,8 +91117,8 @@
     <desc lang="en">Premier League 2025/26: Match Week 37: A.F.C. Bournemouth vs. Manchester City, from Vitality Stadium.</desc>
   </programme>
   <programme start="20260523050000 +0800" stop="20260523060000 +0800" channel="811.astro">
-    <title lang="en">No information available</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">PL Review 2025/26: Week 37</title>
+    <desc lang="en">Review incorporates all the key moments and manager reaction from every fixture, making it a must-see programme for all Premier League fans.</desc>
   </programme>
   <programme start="20260523060000 +0800" stop="20260523081000 +0800" channel="811.astro">
     <title lang="en">PL: Wolves vs Fulham</title>
@@ -92848,19 +92840,19 @@
     <title lang="en">Nascar: Go Bowling at The Glen: Watkins HL</title>
     <desc lang="en">Highlights of Nascar 2026: Go Bowling at The Glen: Watkins.</desc>
   </programme>
-  <programme start="20260518060000 +0800" stop="20260518120000 +0800" channel="817.astro">
+  <programme start="20260518060000 +0800" stop="20260518120400 +0800" channel="817.astro">
     <title lang="en">UFC 2026: Allen vs Costa</title>
     <desc lang="en">UFC 2026: Main Fight: Featherweight Bout: Arnold Allen vs. Melquizael Costa, from Meta APEX, Las Vegas, NV.</desc>
   </programme>
-  <programme start="20260518120000 +0800" stop="20260518123000 +0800" channel="817.astro">
+  <programme start="20260518120400 +0800" stop="20260518123200 +0800" channel="817.astro">
     <title lang="en">UIM F1H2O GP 2026: Season Preview</title>
     <desc lang="en">Season Preview of Powerboat: UIM F1H2O Grand Prix 2026.</desc>
   </programme>
-  <programme start="20260518123000 +0800" stop="20260518130000 +0800" channel="817.astro">
+  <programme start="20260518123200 +0800" stop="20260518130100 +0800" channel="817.astro">
     <title lang="en">MLMC 2026: Rd 1: Barcelona</title>
     <desc lang="en">Highlights of Michelin Le Mans Cup 2026: Round 1: Barcelona.</desc>
   </programme>
-  <programme start="20260518130000 +0800" stop="20260518163000 +0800" channel="817.astro">
+  <programme start="20260518130100 +0800" stop="20260518163000 +0800" channel="817.astro">
     <title lang="en">(D) ATP 250&#x27;s Gonet Geneva Open 2026: Day 1</title>
     <desc lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1, from Tennis Club de Geneve, Geneva.</desc>
   </programme>
@@ -93076,15 +93068,23 @@
     <title lang="en">ATP 1000&#x27;s: Internazionali BNL d&#x27;Italia: Day 10: SFs: Session 1</title>
     <desc lang="en">ATP Tour 1000&#x27;s: Internazionali BNL d&#x27;Italia 2026: Day 10: Semi Finals: Session 1, from Foro Italico, Rome.</desc>
   </programme>
-  <programme start="20260519060000 +0800" stop="20260519100000 +0800" channel="818.astro">
+  <programme start="20260519060000 +0800" stop="20260519063000 +0800" channel="818.astro">
+    <title lang="en">ATP Tour This Week 2026: Episode 18</title>
+    <desc lang="en">A weekly show featuring highlights, in-depth player features, and behind-the-scenes action from the professional men&#x27;s tennis circuit. Catch the latest tournament highlights, Hot Shots, player interviews,</desc>
+  </programme>
+  <programme start="20260519063000 +0800" stop="20260519081000 +0800" channel="818.astro">
+    <title lang="en">ATP 1000&#x27;s: Internazionali BNL d&#x27;Italia: Day 10: SFs: Session 2</title>
+    <desc lang="en">ATP Tour 1000&#x27;s: Internazionali BNL d&#x27;Italia 2026: Day 10: Semi Finals: Session 2, from Foro Italico, Rome.</desc>
+  </programme>
+  <programme start="20260519081000 +0800" stop="20260519104000 +0800" channel="818.astro">
     <title lang="en">ATP 1000&#x27;s: Internazionali BNL d&#x27;Italia: Day 11: Doubles SFs</title>
     <desc lang="en">ATP Tour 1000&#x27;s: Internazionali BNL d&#x27;Italia 2026: Day 11: Doubles Semi Finals, from Foro Italico, Rome.</desc>
   </programme>
-  <programme start="20260519100000 +0800" stop="20260519140000 +0800" channel="818.astro">
+  <programme start="20260519104000 +0800" stop="20260519143000 +0800" channel="818.astro">
     <title lang="en">ATP 500&#x27;s Bitpanda Hamburg Open: Day 1</title>
     <desc lang="en">ATP 500&#x27;s Bitpanda Hamburg Open 2026: Day 1, from Am Rothenbaum, Hamburg.</desc>
   </programme>
-  <programme start="20260519140000 +0800" stop="20260519180000 +0800" channel="818.astro">
+  <programme start="20260519143000 +0800" stop="20260519180000 +0800" channel="818.astro">
     <title lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1</title>
     <desc lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1, from Tennis Club de Geneve, Geneva.</desc>
   </programme>
@@ -93092,15 +93092,11 @@
     <title lang="en">(L) ATP 500&#x27;s Bitpanda Hamburg Open: Day 3</title>
     <desc lang="en">LIVE: ATP 500&#x27;s Bitpanda Hamburg Open 2026: Day 3 , from Am Rothenbaum, Hamburg.</desc>
   </programme>
-  <programme start="20260520020000 +0800" stop="20260520030000 +0800" channel="818.astro">
+  <programme start="20260520020000 +0800" stop="20260520031000 +0800" channel="818.astro">
     <title lang="en">ATP Tour Review Show 2026: Indian Wells</title>
     <desc lang="en">Review Show of ATP Tour 1000&#x27;s: Indian Wells 2026, from Indian Wells Tennis Garden, California.</desc>
   </programme>
-  <programme start="20260520030000 +0800" stop="20260520040000 +0800" channel="818.astro">
-    <title lang="en">ATP Tour Review Show 2026: Miami Open</title>
-    <desc lang="en">Review Show of ATP Tour Miami Open 2026, from Hard Rock Stadium, Miami Gardens, Florida.</desc>
-  </programme>
-  <programme start="20260520040000 +0800" stop="20260520060000 +0800" channel="818.astro">
+  <programme start="20260520031000 +0800" stop="20260520060000 +0800" channel="818.astro">
     <title lang="en">ATP 1000&#x27;s: Internazionali BNL d&#x27;Italia: Day 10: SFs: Session 2</title>
     <desc lang="en">ATP Tour 1000&#x27;s: Internazionali BNL d&#x27;Italia 2026: Day 10: Semi Finals: Session 2, from Foro Italico, Rome.</desc>
   </programme>
@@ -93132,17 +93128,21 @@
     <title lang="en">ATP Tour Review Show 2026: BMW Open</title>
     <desc lang="en">Review Show of ATP Tour 2026: BMW Open, from MTTC Iphitos, Munich.</desc>
   </programme>
-  <programme start="20260521040000 +0800" stop="20260521080000 +0800" channel="818.astro">
-    <title lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1</title>
-    <desc lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1, from Tennis Club de Geneve, Geneva.</desc>
+  <programme start="20260521040000 +0800" stop="20260521043000 +0800" channel="818.astro">
+    <title lang="en">ATP Tour This Week 2026: Episode 17</title>
+    <desc lang="en">A weekly show featuring highlights, in-depth player features, and behind-the-scenes action from the professional men&#x27;s tennis circuit. Catch the latest tournament highlights, Hot Shots, player interviews,</desc>
   </programme>
-  <programme start="20260521080000 +0800" stop="20260521090000 +0800" channel="818.astro">
-    <title lang="en">ATP Tour Review Show: Internazionali BNL d&#x27;Italia</title>
-    <desc lang="en">Review Show of ATP Tour 2026: Internazionali BNL d&#x27;Italia, from Foro Italico, Rome.</desc>
-  </programme>
-  <programme start="20260521090000 +0800" stop="20260521093000 +0800" channel="818.astro">
+  <programme start="20260521043000 +0800" stop="20260521050000 +0800" channel="818.astro">
     <title lang="en">ATP Tour This Week 2026: Episode 18</title>
     <desc lang="en">A weekly show featuring highlights, in-depth player features, and behind-the-scenes action from the professional men&#x27;s tennis circuit. Catch the latest tournament highlights, Hot Shots, player interviews,</desc>
+  </programme>
+  <programme start="20260521050000 +0800" stop="20260521060000 +0800" channel="818.astro">
+    <title lang="en">ATP Tour Review Show 2026: Miami Open</title>
+    <desc lang="en">Review Show of ATP Tour Miami Open 2026, from Hard Rock Stadium, Miami Gardens, Florida.</desc>
+  </programme>
+  <programme start="20260521060000 +0800" stop="20260521093000 +0800" channel="818.astro">
+    <title lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1</title>
+    <desc lang="en">ATP 250&#x27;s Gonet Geneva Open 2026: Day 1, from Tennis Club de Geneve, Geneva.</desc>
   </programme>
   <programme start="20260521093000 +0800" stop="20260521100000 +0800" channel="818.astro">
     <title lang="en">ATP Tour This Week 2026: Episode 19</title>
@@ -95398,7 +95398,7 @@
   </programme>
   <programme start="20260523080000 +0800" stop="20260523100000 +0800" channel="826.astro">
     <title lang="en">(L) USL 25/26</title>
-    <desc lang="en">The USL is a professional Womens league in the USA featuring 8 teams from across the country.</desc>
+    <desc lang="en">LIVE: Watch The USL is a professional Womens league in the USA featuring 8 teams from across the country.</desc>
   </programme>
   <programme start="20260523100000 +0800" stop="20260523113000 +0800" channel="826.astro">
     <title lang="en">Jump Saudi 25</title>
