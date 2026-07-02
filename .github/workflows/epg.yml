@@ -18,11 +18,6 @@ jobs:
         run: |
           .\epg.exe
 
-      - name: Compress XML
-        shell: powershell
-        run: |
-          python -c "import gzip, shutil; f_in=open('astro.xml','rb'); f_out=gzip.open('astro.xml.gz','wb'); shutil.copyfileobj(f_in,f_out); f_out.close(); f_in.close()"
-
       - name: Commit files
         shell: powershell
         run: |
