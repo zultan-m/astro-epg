@@ -18185,6 +18185,10 @@
     <title lang="en">Star Hits Ep331</title>
     <desc lang="en">This program features compilation of hit songs of a selected artist.</desc>
   </programme>
+  <programme start="20260709180000 +0800" stop="20260709203000 +0800" channel="203.astro">
+    <title lang="en">Thalainagaram 2</title>
+    <desc lang="en">A kindhearted-yet-fearless man, once a gangster, wants to stay away from the problems around him. But the three criminals who rule the city won&#x27;t let him be the same.</desc>
+  </programme>
   <programme start="20260709203000 +0800" stop="20260709210000 +0800" channel="203.astro">
     <title lang="en">The Big Screen Ep383</title>
     <desc lang="en">This program features the information of interesting movies.</desc>
@@ -42885,9 +42889,17 @@
     <title lang="en">News &amp; Weather</title>
     <desc lang="en">The latest up-to-date weather information.</desc>
   </programme>
-  <programme start="20260709224500 +0800" stop="20260709233500 +0800" channel="398.astro">
+  <programme start="20260709224500 +0800" stop="20260709232900 +0800" channel="398.astro">
     <title lang="en">International News Report 2026</title>
     <desc lang="en">An international news program providing in-depth report on what is happening around the world.</desc>
+  </programme>
+  <programme start="20260709232900 +0800" stop="20260709233000 +0800" channel="398.astro">
+    <title lang="en">World Weather</title>
+    <desc lang="en">Weather information of the different areas around the world.</desc>
+  </programme>
+  <programme start="20260709233000 +0800" stop="20260710000000 +0800" channel="398.astro">
+    <title lang="en">Familiarization With Japanese Traditional Performing Arts</title>
+    <desc lang="en">The program introduces Japanese Traditional Performing Arts at a polite yet good pace to those who find them hard to approach.</desc>
   </programme>
   <programme start="20260703011500 +0800" stop="20260703031500 +0800" channel="401.astro">
     <title lang="en">The Fast and the Furious</title>
@@ -69771,15 +69783,15 @@
   </programme>
   <programme start="20260709063000 +0800" stop="20260709064000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep04</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709064000 +0800" stop="20260709065000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep05</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709065000 +0800" stop="20260709070000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep06</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709070000 +0800" stop="20260709071000 +0800" channel="603.astro">
     <title lang="en">Pada Zaman Dahulu S5 Ep07</title>
@@ -69843,15 +69855,15 @@
   </programme>
   <programme start="20260709113000 +0800" stop="20260709114000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep04</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709114000 +0800" stop="20260709115000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep05</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709115000 +0800" stop="20260709120000 +0800" channel="603.astro">
     <title lang="en">Didi &amp; Friends Series S2 Ep06</title>
-    <desc lang="en">Jom belajar dan menyanyi bersama Didi, Nana &amp; Jojo dalam penggembaraan mereka ke Pulau Hokey Pokey, Dunia Teko dan banyak lagi di cerita-cerita Didi &amp; Friends!Hora Horey!</desc>
+    <desc lang="en">Saksikan pengembaraan Didi &amp; kawan-kawannya dalam Cerita-Cerita Didi &amp; Friends</desc>
   </programme>
   <programme start="20260709120000 +0800" stop="20260709121000 +0800" channel="603.astro">
     <title lang="en">Pada Zaman Dahulu S5 Ep07</title>
@@ -72434,12 +72446,12 @@
     <desc lang="en">Upin dan Ipin ternampak asap hitam menebal seperti menandakan kedatangan lembaga.Opah, Ros, Upin dan Ipin cuba menyiasat kejadian aneh yang tanpa diduga, bakal menggugat keselamatan mereka.</desc>
   </programme>
   <programme start="20260709131000 +0800" stop="20260709132000 +0800" channel="611.astro">
-    <title lang="en">No information available Ep32</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">UPIN &amp; IPIN S16 Ep32</title>
+    <desc lang="en">Upin, Ipin dan kawan-kawan telah dibawa ke satu &#x27;Expo Suruhanjaya Tenaga&#x27;. Di sana mereka dapat belajar banyak perkara tentang keselamatan dan kecekapan mengunakan tenaga dengan betul.</desc>
   </programme>
   <programme start="20260709132000 +0800" stop="20260709133000 +0800" channel="611.astro">
-    <title lang="en">No information available Ep33</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">UPIN &amp; IPIN S16 Ep33</title>
+    <desc lang="en">Upin, Ipin dan kawan-kawan telah dibawa ke satu &#x27;Expo Suruhanjaya Tenaga&#x27;. Di sana mereka dapat belajar banyak perkara tentang keselamatan dan kecekapan mengunakan tenaga dengan betul.</desc>
   </programme>
   <programme start="20260709133000 +0800" stop="20260709134000 +0800" channel="611.astro">
     <title lang="en">Upin &amp; Ipin Season 15 Ep31</title>
@@ -72506,12 +72518,12 @@
     <desc lang="en">Upin dan Ipin ternampak asap hitam menebal seperti menandakan kedatangan lembaga.Opah, Ros, Upin dan Ipin cuba menyiasat kejadian aneh yang tanpa diduga, bakal menggugat keselamatan mereka.</desc>
   </programme>
   <programme start="20260709201000 +0800" stop="20260709202000 +0800" channel="611.astro">
-    <title lang="en">No information available Ep32</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">UPIN &amp; IPIN S16 Ep32</title>
+    <desc lang="en">Upin, Ipin dan kawan-kawan telah dibawa ke satu &#x27;Expo Suruhanjaya Tenaga&#x27;. Di sana mereka dapat belajar banyak perkara tentang keselamatan dan kecekapan mengunakan tenaga dengan betul.</desc>
   </programme>
   <programme start="20260709202000 +0800" stop="20260709203000 +0800" channel="611.astro">
-    <title lang="en">No information available Ep33</title>
-    <desc lang="en">No information available</desc>
+    <title lang="en">UPIN &amp; IPIN S16 Ep33</title>
+    <desc lang="en">Upin, Ipin dan kawan-kawan telah dibawa ke satu &#x27;Expo Suruhanjaya Tenaga&#x27;. Di sana mereka dapat belajar banyak perkara tentang keselamatan dan kecekapan mengunakan tenaga dengan betul.</desc>
   </programme>
   <programme start="20260709203000 +0800" stop="20260709204000 +0800" channel="611.astro">
     <title lang="en">Upin &amp; Ipin Season 15 Ep31</title>
@@ -88062,8 +88074,8 @@
     <desc lang="en">Ikuti perjalanan Bangmed mengembara bumi Pamplona, Sepanyol! Merasai kemeriahan matchday di LaLiga sambil melengkapkan siri cabaran yang diberikan oleh Burn, Keesh &amp; Faiz.</desc>
   </programme>
   <programme start="20260709120000 +0800" stop="20260709121500 +0800" channel="802.astro">
-    <title lang="en">Nadi World</title>
-    <desc lang="en">Berita terkini dari dunia sukan antarabangsa.</desc>
+    <title lang="en">(L) Nadi World</title>
+    <desc lang="en">(Langsung) Berita terkini dari dunia sukan antarabangsa.</desc>
   </programme>
   <programme start="20260709121500 +0800" stop="20260709170000 +0800" channel="802.astro">
     <title lang="en">Hari ke-4: TSS 2026 Rnd 2 Sesi ke-2</title>
@@ -94718,12 +94730,12 @@
     <desc lang="en">Check out the latest happenings on the PGA Tour golf scene, including highlights of the season hottest tour, interviews and previews.</desc>
   </programme>
   <programme start="20260709153000 +0800" stop="20260709200000 +0800" channel="831.astro">
-    <title lang="en">Genesis Scottish Open FG Day 1</title>
-    <desc lang="en">Genesis Scottish Open 2026 featured group tournament held at The Renaissance Club, North Berwick, Scotland.</desc>
+    <title lang="en">(L) Genesis Scottish Open FG Day 1</title>
+    <desc lang="en">LIVE: Genesis Scottish Open 2026 featured group tournament held at The Renaissance Club, North Berwick, Scotland.</desc>
   </programme>
   <programme start="20260709200000 +0800" stop="20260710020000 +0800" channel="831.astro">
-    <title lang="en">Genesis Scottish Open Day 1</title>
-    <desc lang="en">Rolex Series: Genesis Scottish Open 2026 tournament held at The Renaissance Club, North Berwick, Scotland.</desc>
+    <title lang="en">(L) Genesis Scottish Open Day 1</title>
+    <desc lang="en">LIVE: Rolex Series: Genesis Scottish Open 2026 tournament held at The Renaissance Club, North Berwick, Scotland.</desc>
   </programme>
   <programme start="20260703000000 +0800" stop="20260703003600 +0800" channel="832.astro">
     <title lang="en">ICC Men&#x27;s T20 World Cup Highlights: Final: IND Vs NZ</title>
@@ -96165,6 +96177,14 @@
     <title lang="en">NRL Try Time</title>
     <desc lang="en">A round-up of all the tries and key moments from the latest round of fixtures in the 2026 NRL Premiership.</desc>
   </programme>
+  <programme start="20260709081200 +0800" stop="20260709100200 +0800" channel="833.astro">
+    <title lang="en">International Rugby: South Africa V England</title>
+    <desc lang="en">Coverage of the International Rugby season for 2026.</desc>
+  </programme>
+  <programme start="20260709100200 +0800" stop="20260709115200 +0800" channel="833.astro">
+    <title lang="en">International Rugby: Argentina V Scotland</title>
+    <desc lang="en">Coverage of the International Rugby season for 2026.</desc>
+  </programme>
   <programme start="20260709115200 +0800" stop="20260709134200 +0800" channel="833.astro">
     <title lang="en">State of Origin: Queensland V New South Wales</title>
     <desc lang="en">Game 3 of the 2026 State of Origin series which is the 45th annual best-of-three series between the Queensland and New South Wales rugby league teams.</desc>
@@ -96216,6 +96236,14 @@
   <programme start="20260709203200 +0800" stop="20260709205200 +0800" channel="833.astro">
     <title lang="en">AFL Highlights: Port Adelaide V North Melbourne</title>
     <desc lang="en">Catch all the standout moments from the latest matches of the 2026 Toyota AFL Premiership Season.</desc>
+  </programme>
+  <programme start="20260709205200 +0800" stop="20260709224200 +0800" channel="833.astro">
+    <title lang="en">International Rugby: Fiji V Wales</title>
+    <desc lang="en">Coverage of the International Rugby season for 2026.</desc>
+  </programme>
+  <programme start="20260709224200 +0800" stop="20260710003200 +0800" channel="833.astro">
+    <title lang="en">International Rugby: South Africa V England</title>
+    <desc lang="en">Coverage of the International Rugby season for 2026.</desc>
   </programme>
   <programme start="20260703000000 +0800" stop="20260703015500 +0800" channel="472.astro">
     <title lang="en">Demon Slayer: Kimetsu no Yaiba Hashira Training - The Curtain Rises Arc</title>
