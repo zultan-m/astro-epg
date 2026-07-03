@@ -23,11 +23,11 @@ jobs:
         run: |
           git config --global user.name "epg-bot"
           git config --global user.email "actions@github.com"
-
-          git add astro.xml astro.xml.gz epg.log
-
+      
+          git add .
+      
           git diff --cached --quiet
           if ($LASTEXITCODE -ne 0) {
             git commit -m "Auto update EPG"
             git push
-          }
+          }  
