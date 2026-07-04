@@ -1,51 +1,10 @@
-2026-07-03 23:09:53,227 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
-2026-07-03 23:09:53,875 - INFO - New channels     : 0
-2026-07-03 23:09:53,875 - INFO - Removed channels : 0
-2026-07-03 23:09:53,875 - INFO - Channel list is already up to date.
-2026-07-03 23:09:53,875 - INFO - Discovered 148 channels
-2026-07-03 23:09:53,875 - INFO - Channel catalog loaded: 148 channels
-2026-07-03 23:09:54,967 - INFO - OK: Astro-Citra-301
-2026-07-03 23:09:55,042 - INFO - OK: Astro-Ria-193
-2026-07-03 23:09:55,080 - INFO - OK: Astro-Rania-401
-2026-07-03 23:09:55,216 - INFO - OK: Astro-Aura-400
-2026-07-03 23:09:55,254 - INFO - OK: TV1-HD-395
-2026-07-03 23:09:55,254 - INFO - Processing 1/148: TV1-HD-395
-2026-07-03 23:09:55,266 - INFO - OK: TV2-HD-396
-2026-07-03 23:09:55,268 - INFO - Processing 2/148: TV2-HD-396
-2026-07-03 23:09:55,290 - INFO - OK: Astro-Prima-316
-2026-07-03 23:09:55,363 - INFO - OK: Al-Hijrah-149
-2026-07-03 23:09:55,438 - INFO - OK: Astro-Oasis-315
-2026-07-03 23:09:55,538 - INFO - OK: TV3-106
-2026-07-03 23:09:55,538 - INFO - Processing 3/148: TV3-106
-2026-07-03 23:09:55,538 - INFO - Processing 4/148: Astro-Ria-193
-2026-07-03 23:09:55,539 - INFO - Processing 5/148: Astro-Prima-316
-2026-07-03 23:09:55,540 - INFO - Processing 6/148: Astro-Oasis-315
-2026-07-03 23:09:55,540 - INFO - Processing 7/148: Astro-Citra-301
-2026-07-03 23:09:55,540 - INFO - Processing 8/148: Astro-Rania-401
-2026-07-03 23:09:55,540 - INFO - Processing 9/148: Astro-Aura-400
-2026-07-03 23:09:55,540 - INFO - Processing 10/148: Al-Hijrah-149
-2026-07-03 23:09:55,800 - INFO - OK: NTV7-93
-2026-07-03 23:09:56,099 - INFO - OK: Z-Cinema-HD-490
-2026-07-03 23:09:56,284 - INFO - OK: SUN-TV-HD-358
-2026-07-03 23:09:56,464 - INFO - OK: 8TV-115
-2026-07-03 23:09:56,490 - INFO - OK: Colors-Hindi-HD-365
-2026-07-03 23:09:56,490 - INFO - Processing 11/148: Colors-Hindi-HD-365
-2026-07-03 23:09:56,491 - INFO - Processing 12/148: Z-Cinema-HD-490
-2026-07-03 23:09:56,526 - INFO - OK: Astro-Vellithirai-HD-399
-2026-07-03 23:09:56,586 - INFO - OK: TV-Okey-HD-467
-2026-07-03 23:09:56,608 - INFO - OK: Sun-Music-HD-417
-2026-07-03 23:09:56,624 - INFO - OK: TV-Sarawak-429
-2026-07-03 23:09:56,626 - INFO - Processing 13/148: TV-Sarawak-429
-2026-07-03 23:09:56,626 - INFO - Processing 14/148: TV-Okey-HD-467
-2026-07-03 23:09:56,626 - INFO - Processing 15/148: NTV7-93
-2026-07-03 23:09:56,626 - INFO - Processing 16/148: 8TV-115
-2026-07-03 23:09:56,701 - INFO - OK: TV9-48
-2026-07-03 23:09:56,702 - INFO - Processing 17/148: TV9-48
-2026-07-03 23:09:56,712 - INFO - OK: Astro-Vaanavil-397
-2026-07-03 23:09:56,714 - INFO - Processing 18/148: Astro-Vaanavil-397
-2026-07-03 23:09:56,797 - INFO - OK: Astro-Vinmeen-167
-2026-07-03 23:09:56,797 - INFO - Processing 19/148: Astro-Vinmeen-167
-2026-07-03 23:09:56,799 - INFO - Processing 20/148: Astro-Vellithirai-HD-399
-2026-07-03 23:09:56,799 - INFO - Processing 21/148: SUN-TV-HD-358
-2026-07-03 23:09:56,799 - INFO - Processing 22/148: Sun-Music-HD-417
-2026-07-03 23:09:56,914 - INFO - OK: KTV-477
+2026-07-04 23:01:54,653 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
+2026-07-04 23:01:55,457 - INFO - New channels     : 0
+2026-07-04 23:01:55,457 - INFO - Removed channels : 0
+2026-07-04 23:01:55,457 - INFO - Channel list is already up to date.
+2026-07-04 23:01:55,457 - INFO - Discovered 148 channels
+2026-07-04 23:01:55,457 - INFO - Channel catalog loaded: 148 channels
+2026-07-04 23:01:56,253 - INFO - OK: Astro-Oasis-315
+2026-07-04 23:01:56,794 - INFO - OK: Astro-Ria-193
+2026-07-04 23:01:56,829 - INFO - OK: TV3-106
+2026-07-04 23:01:56,835 - INFO - OK: Astro-Rania-401
