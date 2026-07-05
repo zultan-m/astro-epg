@@ -1,10 +1,26 @@
-2026-07-04 23:01:54,653 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
-2026-07-04 23:01:55,457 - INFO - New channels     : 0
-2026-07-04 23:01:55,457 - INFO - Removed channels : 0
-2026-07-04 23:01:55,457 - INFO - Channel list is already up to date.
-2026-07-04 23:01:55,457 - INFO - Discovered 148 channels
-2026-07-04 23:01:55,457 - INFO - Channel catalog loaded: 148 channels
-2026-07-04 23:01:56,253 - INFO - OK: Astro-Oasis-315
-2026-07-04 23:01:56,794 - INFO - OK: Astro-Ria-193
-2026-07-04 23:01:56,829 - INFO - OK: TV3-106
-2026-07-04 23:01:56,835 - INFO - OK: Astro-Rania-401
+2026-07-05 23:05:24,100 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
+2026-07-05 23:05:24,982 - INFO - New channels     : 0
+2026-07-05 23:05:24,982 - INFO - Removed channels : 0
+2026-07-05 23:05:24,982 - INFO - Channel list is already up to date.
+2026-07-05 23:05:24,982 - INFO - Discovered 148 channels
+2026-07-05 23:05:24,982 - INFO - Channel catalog loaded: 148 channels
+2026-07-05 23:05:25,680 - INFO - OK: Astro-Rania-401
+2026-07-05 23:05:26,223 - INFO - OK: Astro-Citra-301
+2026-07-05 23:05:26,383 - INFO - OK: TV3-106
+2026-07-05 23:05:26,434 - INFO - OK: TV1-HD-395
+2026-07-05 23:05:26,434 - INFO - Processing 1/148: TV1-HD-395
+2026-07-05 23:05:26,464 - INFO - OK: Astro-Ria-193
+2026-07-05 23:05:26,487 - INFO - OK: Al-Hijrah-149
+2026-07-05 23:05:26,492 - INFO - OK: Astro-Aura-400
+2026-07-05 23:05:26,514 - INFO - OK: TV2-HD-396
+2026-07-05 23:05:26,514 - INFO - Processing 2/148: TV2-HD-396
+2026-07-05 23:05:26,514 - INFO - Processing 3/148: TV3-106
+2026-07-05 23:05:26,514 - INFO - Processing 4/148: Astro-Ria-193
+2026-07-05 23:05:26,647 - INFO - OK: Astro-Oasis-315
+2026-07-05 23:05:26,777 - INFO - OK: Astro-Prima-316
+2026-07-05 23:05:26,778 - INFO - Processing 5/148: Astro-Prima-316
+2026-07-05 23:05:26,778 - INFO - Processing 6/148: Astro-Oasis-315
+2026-07-05 23:05:26,778 - INFO - Processing 7/148: Astro-Citra-301
+2026-07-05 23:05:26,778 - INFO - Processing 8/148: Astro-Rania-401
+2026-07-05 23:05:26,778 - INFO - Processing 9/148: Astro-Aura-400
+2026-07-05 23:05:26,778 - INFO - Processing 10/148: Al-Hijrah-149
