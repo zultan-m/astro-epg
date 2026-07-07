@@ -1,9 +1,26 @@
-2026-07-06 23:12:04,542 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
-2026-07-06 23:12:05,352 - INFO - New channels     : 0
-2026-07-06 23:12:05,352 - INFO - Removed channels : 0
-2026-07-06 23:12:05,352 - INFO - Channel list is already up to date.
-2026-07-06 23:12:05,352 - INFO - Discovered 148 channels
-2026-07-06 23:12:05,352 - INFO - Channel catalog loaded: 148 channels
-2026-07-06 23:12:05,447 - INFO - OK: Astro-Citra-301
-2026-07-06 23:12:05,990 - INFO - OK: Al-Hijrah-149
-2026-07-06 23:12:06,429 - INFO - OK: Astro-Oasis-315
+2026-07-07 13:28:28,792 - INFO - Build ID: sMpPIMgSx1Pv3N4T_ExT_
+2026-07-07 13:28:29,708 - INFO - New channels     : 0
+2026-07-07 13:28:29,708 - INFO - Removed channels : 0
+2026-07-07 13:28:29,708 - INFO - Channel list is already up to date.
+2026-07-07 13:28:29,708 - INFO - Discovered 148 channels
+2026-07-07 13:28:29,708 - INFO - Channel catalog loaded: 148 channels
+2026-07-07 13:28:30,883 - INFO - OK: Astro-Citra-301
+2026-07-07 13:28:31,112 - INFO - OK: TV3-106
+2026-07-07 13:28:31,152 - INFO - OK: Astro-Ria-193
+2026-07-07 13:28:31,158 - INFO - OK: Astro-Aura-400
+2026-07-07 13:28:31,219 - INFO - OK: TV1-HD-395
+2026-07-07 13:28:31,219 - INFO - Processing 1/148: TV1-HD-395
+2026-07-07 13:28:31,227 - INFO - OK: Astro-Rania-401
+2026-07-07 13:28:31,245 - INFO - OK: TV2-HD-396
+2026-07-07 13:28:31,247 - INFO - Processing 2/148: TV2-HD-396
+2026-07-07 13:28:31,247 - INFO - Processing 3/148: TV3-106
+2026-07-07 13:28:31,247 - INFO - Processing 4/148: Astro-Ria-193
+2026-07-07 13:28:31,263 - INFO - OK: Al-Hijrah-149
+2026-07-07 13:28:31,312 - INFO - OK: Astro-Oasis-315
+2026-07-07 13:28:31,380 - INFO - OK: Astro-Prima-316
+2026-07-07 13:28:31,380 - INFO - Processing 5/148: Astro-Prima-316
+2026-07-07 13:28:31,380 - INFO - Processing 6/148: Astro-Oasis-315
+2026-07-07 13:28:31,380 - INFO - Processing 7/148: Astro-Citra-301
+2026-07-07 13:28:31,382 - INFO - Processing 8/148: Astro-Rania-401
+2026-07-07 13:28:31,382 - INFO - Processing 9/148: Astro-Aura-400
+2026-07-07 13:28:31,382 - INFO - Processing 10/148: Al-Hijrah-149
