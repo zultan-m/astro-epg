@@ -2,7 +2,8 @@ name: Generate Astro EPG
 
 on:
   schedule:
-    - cron: '5 22 * * *'
+    - cron: '17 6 * * *'
+      timezone: 'Asia/Kuala_Lumpur'
   workflow_dispatch:
 
 jobs:
