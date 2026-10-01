@@ -2076,13 +2076,9 @@
     <title lang="en">Agrotek</title>
     <desc lang="en">Saksikan dokumentari yang memaparkan pelbagai teknologi terkini yang digunakan dalam sektor peladangan mahupun penternakan bagi menyumbang kepada hasil yang lebih baik.</desc>
   </programme>
-  <programme start="20261002120000 +0800" stop="20261002121500 +0800" channel="101.astro">
+  <programme start="20261002120000 +0800" stop="20261002123000 +0800" channel="101.astro">
     <title lang="en">(L) Berita Tengah Hari</title>
     <desc lang="en">Perkembangan berita terkini, isu-isu semasa dalam dan luar negara.</desc>
-  </programme>
-  <programme start="20261002121500 +0800" stop="20261002123000 +0800" channel="101.astro">
-    <title lang="en">Promo / PSA / Kapsul</title>
-    <desc lang="en">Saksikan paparan promo semasa, PSA, kapsul kenegaraan, kerohanian dan nilai-nilai murni.</desc>
   </programme>
   <programme start="20261002123000 +0800" stop="20261002130000 +0800" channel="101.astro">
     <title lang="en">Lisanul Haq</title>
@@ -13733,11 +13729,11 @@
     <desc lang="en">Join your favourite Pokemon on an exciting adventure filled with action, friendship and fun! From 1 October to 31 December.</desc>
   </programme>
   <programme start="20261001060000 +0800" stop="20261001120000 +0800" channel="121.astro">
-    <title lang="en">Pokemon</title>
+    <title lang="en">Pokémon</title>
     <desc lang="en">Join your favourite Pokemon on an exciting adventure filled with action, friendship and fun! From 1 October to 31 December.</desc>
   </programme>
   <programme start="20261001120000 +0800" stop="20261001140000 +0800" channel="121.astro">
-    <title lang="en">Pokemon</title>
+    <title lang="en">Pokémon</title>
     <desc lang="en">Join your favourite Pokemon on an exciting adventure filled with action, friendship and fun! From 1 October to 31 December.</desc>
   </programme>
   <programme start="20261001140000 +0800" stop="20261001143000 +0800" channel="121.astro">
@@ -26672,15 +26668,15 @@
     <title lang="en">Ninaithen Vandhai Ep53</title>
     <desc lang="en">Ezhil is devastated after his wife Indhumathi&#x27;s death. A simple village girl, Sudarvizhi, steps in to be his children&#x27;s caretaker. But can Sudarvizhi fill the void in Ezhil and his children&#x27;s hearts?</desc>
   </programme>
-  <programme start="20261001090000 +0800" stop="20261001093000 +0800" channel="223.astro">
+  <programme start="20261001090000 +0800" stop="20261001094700 +0800" channel="223.astro">
     <title lang="en">Maari Ep53</title>
     <desc lang="en">Maari, who is gifted with supernatural powers to predict the future, tries to help everyone around her but her own family abandons her.</desc>
   </programme>
-  <programme start="20261001093000 +0800" stop="20261001100000 +0800" channel="223.astro">
-    <title lang="en">Parijatham Ep129</title>
-    <desc lang="en">The show narrates a heartwarming love story between a traditional girl and a rock star singer, beautifully blending the contrasting worlds of simplicity and glamour.</desc>
+  <programme start="20261001094700 +0800" stop="20261001101000 +0800" channel="223.astro">
+    <title lang="en">Mahasangamam</title>
+    <desc lang="en">Mahasangamam</desc>
   </programme>
-  <programme start="20261001100000 +0800" stop="20261001103000 +0800" channel="223.astro">
+  <programme start="20261001101000 +0800" stop="20261001103000 +0800" channel="223.astro">
     <title lang="en">Salangai Oli Ep624</title>
     <desc lang="en">Gagan and Bhoomi lose connections with their fathers due to a tragedy. Bhoomi grows up hoping to find her roots, while Gagan develops hatred for his father. How will their destiny bring them together?</desc>
   </programme>
@@ -44692,11 +44688,11 @@
     <title lang="en">Show Champion Ep612</title>
     <desc lang="en">Hosted by various guest MCs, Show Champion featured the most popular hits in Korea and the upcoming super rookies in the K-Pop music scene</desc>
   </programme>
-  <programme start="20261001094000 +0800" stop="20261001101000 +0800" channel="396.astro">
+  <programme start="20261001094000 +0800" stop="20261001101500 +0800" channel="396.astro">
     <title lang="en">Top Management Ep03</title>
     <desc lang="en">S.O.U.L stays in the same studio with Soo-yong to accelerate their progress, but Soo-yong does not make the best first impression on them.</desc>
   </programme>
-  <programme start="20261001101000 +0800" stop="20261001105500 +0800" channel="396.astro">
+  <programme start="20261001101500 +0800" stop="20261001105500 +0800" channel="396.astro">
     <title lang="en">Top Management Ep04</title>
     <desc lang="en">Eun-sung finds out it was a mysterious masked woman who revealed S.O.U.L.&#x27;s song is a rip-off. Soo-yong shares a song he wrote with S.O.U.L.</desc>
   </programme>
@@ -44716,15 +44712,15 @@
     <title lang="en">Dive Into You Ep02</title>
     <desc lang="en">The story of a top actress who goes back into the past to save the life of her first love.</desc>
   </programme>
-  <programme start="20261001162500 +0800" stop="20261001164000 +0800" channel="396.astro">
+  <programme start="20261001162500 +0800" stop="20261001163500 +0800" channel="396.astro">
     <title lang="en">Best of K-Pop Ep01</title>
     <desc lang="en">Your top Korean entertainment channel for the trendiest K-Pop songs.</desc>
   </programme>
-  <programme start="20261001164000 +0800" stop="20261001175500 +0800" channel="396.astro">
+  <programme start="20261001163500 +0800" stop="20261001175000 +0800" channel="396.astro">
     <title lang="en">The Beauty Inside Ep07</title>
     <desc lang="en">Se-gye is scared when she does not hear from Do-jae and wonders whether it is all just business, but he&#x27;s dealing with his own issues.</desc>
   </programme>
-  <programme start="20261001175500 +0800" stop="20261001191000 +0800" channel="396.astro">
+  <programme start="20261001175000 +0800" stop="20261001191000 +0800" channel="396.astro">
     <title lang="en">The Midnight Studio Ep15</title>
     <desc lang="en">Ki-joo follows Nam-goo&#x27;s wishes and hands the divorce papers to Na-rae. Just as they thought the curse has come to an end, the mark on Bom&#x27;s arm begins to darken.</desc>
   </programme>
@@ -44744,39 +44740,39 @@
     <title lang="en">Your Personal Taxi Ep04</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261001212500 +0800" stop="20261001224000 +0800" channel="396.astro">
+  <programme start="20261001212500 +0800" stop="20261001224800 +0800" channel="396.astro">
     <title lang="en">Hotel Del Luna Ep11</title>
     <desc lang="en">The hotel staff face unresolved regrets from their past lives while Man-wol struggles between revenge and forgiveness.</desc>
   </programme>
-  <programme start="20261001224000 +0800" stop="20261001235500 +0800" channel="396.astro">
+  <programme start="20261001224800 +0800" stop="20261001235600 +0800" channel="396.astro">
     <title lang="en">Longing for You Ep05</title>
     <desc lang="en">Jin-sung&#x27;s ex-colleagues at Woojin Police Station agree to help reinvestigate Jin-woo&#x27;s case. Young-hee worries about Doctor Chu&#x27;s disappearance.</desc>
   </programme>
-  <programme start="20261001235500 +0800" stop="20261002011000 +0800" channel="396.astro">
+  <programme start="20261001235600 +0800" stop="20261002011000 +0800" channel="396.astro">
     <title lang="en">The Beauty Inside Ep07</title>
     <desc lang="en">Se-gye is scared when she does not hear from Do-jae and wonders whether it is all just business, but he&#x27;s dealing with his own issues.</desc>
   </programme>
-  <programme start="20261002011000 +0800" stop="20261002022500 +0800" channel="396.astro">
+  <programme start="20261002011000 +0800" stop="20261002023000 +0800" channel="396.astro">
     <title lang="en">The Midnight Studio Ep15</title>
     <desc lang="en">Ki-joo follows Nam-goo&#x27;s wishes and hands the divorce papers to Na-rae. Just as they thought the curse has come to an end, the mark on Bom&#x27;s arm begins to darken.</desc>
   </programme>
-  <programme start="20261002022500 +0800" stop="20261002034000 +0800" channel="396.astro">
+  <programme start="20261002023000 +0800" stop="20261002035300 +0800" channel="396.astro">
     <title lang="en">Hotel Del Luna Ep11</title>
     <desc lang="en">The hotel staff face unresolved regrets from their past lives while Man-wol struggles between revenge and forgiveness.</desc>
   </programme>
-  <programme start="20261002034000 +0800" stop="20261002052500 +0800" channel="396.astro">
+  <programme start="20261002035300 +0800" stop="20261002053800 +0800" channel="396.astro">
     <title lang="en">Chef &amp; My Fridge Ep26</title>
     <desc lang="en">A cooking battle between star chefs, which utilizes ingredients from the fridges of various celebrities.</desc>
   </programme>
-  <programme start="20261002052500 +0800" stop="20261002064000 +0800" channel="396.astro">
+  <programme start="20261002053800 +0800" stop="20261002064600 +0800" channel="396.astro">
     <title lang="en">Longing for You Ep05</title>
     <desc lang="en">Jin-sung&#x27;s ex-colleagues at Woojin Police Station agree to help reinvestigate Jin-woo&#x27;s case. Young-hee worries about Doctor Chu&#x27;s disappearance.</desc>
   </programme>
-  <programme start="20261002064000 +0800" stop="20261002075500 +0800" channel="396.astro">
+  <programme start="20261002064600 +0800" stop="20261002080000 +0800" channel="396.astro">
     <title lang="en">The Beauty Inside Ep07</title>
     <desc lang="en">Se-gye is scared when she does not hear from Do-jae and wonders whether it is all just business, but he&#x27;s dealing with his own issues.</desc>
   </programme>
-  <programme start="20261002075500 +0800" stop="20261002094000 +0800" channel="396.astro">
+  <programme start="20261002080000 +0800" stop="20261002094000 +0800" channel="396.astro">
     <title lang="en">Knowing Bros Ep511</title>
     <desc lang="en">A talk show where the cast members act like students in a classroom, and guests are invited as new transfer students.</desc>
   </programme>
@@ -44784,31 +44780,31 @@
     <title lang="en">Your Personal Taxi Ep01</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002101000 +0800" stop="20261002105500 +0800" channel="396.astro">
+  <programme start="20261002101000 +0800" stop="20261002104000 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep02</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002105500 +0800" stop="20261002112500 +0800" channel="396.astro">
+  <programme start="20261002104000 +0800" stop="20261002111000 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep03</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002112500 +0800" stop="20261002121000 +0800" channel="396.astro">
+  <programme start="20261002111000 +0800" stop="20261002121000 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep04</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002121000 +0800" stop="20261002124000 +0800" channel="396.astro">
+  <programme start="20261002121000 +0800" stop="20261002124500 +0800" channel="396.astro">
     <title lang="en">New Recruit S4: Sabotage Ep21</title>
     <desc lang="en">A hyper-realistic comedy telling the story of a military recruit, who enlists in a place where all kinds of people are gathered.</desc>
   </programme>
-  <programme start="20261002124000 +0800" stop="20261002132500 +0800" channel="396.astro">
+  <programme start="20261002124500 +0800" stop="20261002132500 +0800" channel="396.astro">
     <title lang="en">New Recruit S4: Sabotage Ep22</title>
     <desc lang="en">A hyper-realistic comedy telling the story of a military recruit, who enlists in a place where all kinds of people are gathered.</desc>
   </programme>
-  <programme start="20261002132500 +0800" stop="20261002135500 +0800" channel="396.astro">
+  <programme start="20261002132500 +0800" stop="20261002140000 +0800" channel="396.astro">
     <title lang="en">New Recruit S4: Sabotage Ep23</title>
     <desc lang="en">A hyper-realistic comedy telling the story of a military recruit, who enlists in a place where all kinds of people are gathered.</desc>
   </programme>
-  <programme start="20261002135500 +0800" stop="20261002144000 +0800" channel="396.astro">
+  <programme start="20261002140000 +0800" stop="20261002144000 +0800" channel="396.astro">
     <title lang="en">New Recruit S4: Sabotage Ep24</title>
     <desc lang="en">A hyper-realistic comedy telling the story of a military recruit, who enlists in a place where all kinds of people are gathered.</desc>
   </programme>
@@ -44816,15 +44812,15 @@
     <title lang="en">Korean Lunch Tray Ep16</title>
     <desc lang="en">A variety program which carries the iconic metal lunch tray and spreads the culture of K-food to different parts of the world.</desc>
   </programme>
-  <programme start="20261002162500 +0800" stop="20261002164000 +0800" channel="396.astro">
+  <programme start="20261002162500 +0800" stop="20261002163000 +0800" channel="396.astro">
     <title lang="en">Best of K-Pop Ep01</title>
     <desc lang="en">Your top Korean entertainment channel for the trendiest K-Pop songs.</desc>
   </programme>
-  <programme start="20261002164000 +0800" stop="20261002175500 +0800" channel="396.astro">
+  <programme start="20261002163000 +0800" stop="20261002175000 +0800" channel="396.astro">
     <title lang="en">The Beauty Inside Ep08</title>
     <desc lang="en">Do-jae&#x27;s condition has deeper side effects. While the world is bustling with news of her breakup, Se-gye wants to change for the first time.</desc>
   </programme>
-  <programme start="20261002175500 +0800" stop="20261002191000 +0800" channel="396.astro">
+  <programme start="20261002175000 +0800" stop="20261002191000 +0800" channel="396.astro">
     <title lang="en">The Midnight Studio Ep16</title>
     <desc lang="en">After sending Ji-won to the emergency room, Sung-ho begins to take revenge on Chief Kim. Ki-joo is determined to go on a one-way journey to the otherworld, in order to save Bom. Will this be goodbye?</desc>
   </programme>
@@ -44832,31 +44828,31 @@
     <title lang="en">Your Personal Taxi Ep05</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002194000 +0800" stop="20261002201000 +0800" channel="396.astro">
+  <programme start="20261002194000 +0800" stop="20261002201600 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep06</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002201000 +0800" stop="20261002204000 +0800" channel="396.astro">
+  <programme start="20261002201600 +0800" stop="20261002205100 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep07</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002204000 +0800" stop="20261002212500 +0800" channel="396.astro">
+  <programme start="20261002205100 +0800" stop="20261002212500 +0800" channel="396.astro">
     <title lang="en">Your Personal Taxi Ep08</title>
     <desc lang="en">The healing music drama which tells the story of a mysterious taxi that operates by reservations only.</desc>
   </programme>
-  <programme start="20261002212500 +0800" stop="20261002224000 +0800" channel="396.astro">
+  <programme start="20261002212500 +0800" stop="20261002225500 +0800" channel="396.astro">
     <title lang="en">Hotel Del Luna Ep12</title>
     <desc lang="en">A powerful evil spirit threatens Hotel Del Luna, pushing Man-wol to risk everything to protect those she loves.</desc>
   </programme>
-  <programme start="20261002224000 +0800" stop="20261002235500 +0800" channel="396.astro">
+  <programme start="20261002225500 +0800" stop="20261003000700 +0800" channel="396.astro">
     <title lang="en">Longing for You Ep06</title>
     <desc lang="en">Jin-sung gets his hands on Bae Min-kyu&#x27;s burner phone. Young-woon agrees to disband the special investigations team.</desc>
   </programme>
-  <programme start="20261002235500 +0800" stop="20261003011000 +0800" channel="396.astro">
+  <programme start="20261003000700 +0800" stop="20261003012500 +0800" channel="396.astro">
     <title lang="en">The Beauty Inside Ep08</title>
     <desc lang="en">Do-jae&#x27;s condition has deeper side effects. While the world is bustling with news of her breakup, Se-gye wants to change for the first time.</desc>
   </programme>
-  <programme start="20261003011000 +0800" stop="20261003022500 +0800" channel="396.astro">
+  <programme start="20261003012500 +0800" stop="20261003022500 +0800" channel="396.astro">
     <title lang="en">The Midnight Studio Ep16</title>
     <desc lang="en">After sending Ji-won to the emergency room, Sung-ho begins to take revenge on Chief Kim. Ki-joo is determined to go on a one-way journey to the otherworld, in order to save Bom. Will this be goodbye?</desc>
   </programme>
@@ -89796,9 +89792,17 @@
     <title lang="en">(L) Volleyball: M QFs JPN vs QAT</title>
     <desc lang="en">LIVE: 20th Asian Games Aichi-Nagoya 2026: Volleyball: Men&#x27;s Quarter Finals 4: Japan vs Qatar, from Japan.</desc>
   </programme>
-  <programme start="20261001200000 +0800" stop="20261001211000 +0800" channel="796.astro">
+  <programme start="20261001200000 +0800" stop="20261001203500 +0800" channel="796.astro">
     <title lang="en">Daily Highlights: Day 11</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Daily Highlights: Day 11, from Aichi Nagoya, Japan.</desc>
+  </programme>
+  <programme start="20261001203500 +0800" stop="20261001205500 +0800" channel="796.astro">
+    <title lang="en">Golden Moments: Day 8</title>
+    <desc lang="en">Highlights of Golden Moments from 20th Asian Games Aichi-Nagoya 2026.</desc>
+  </programme>
+  <programme start="20261001205500 +0800" stop="20261001211000 +0800" channel="796.astro">
+    <title lang="en">Golden Moments: Day 9</title>
+    <desc lang="en">Highlights of Golden Moments from 20th Asian Games Aichi-Nagoya 2026.</desc>
   </programme>
   <programme start="20261001211000 +0800" stop="20261002021000 +0800" channel="796.astro">
     <title lang="en">Athletics: Integrated</title>
@@ -89812,17 +89816,25 @@
     <title lang="en">Golden Moments: Day 11</title>
     <desc lang="en">Highlights of Golden Moments from 20th Asian Games Aichi-Nagoya 2026.</desc>
   </programme>
-  <programme start="20261002024000 +0800" stop="20261002045000 +0800" channel="796.astro">
+  <programme start="20261002024000 +0800" stop="20261002044500 +0800" channel="796.astro">
     <title lang="en">Sepak Takraw: Quadrant Prelimenary</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Sepak Takraw: Quadrant Prelimenary, from Nagoya City Mizuho Park Gymnasium - Court 1, Japan.</desc>
   </programme>
-  <programme start="20261002045000 +0800" stop="20261002075000 +0800" channel="796.astro">
+  <programme start="20261002044500 +0800" stop="20261002075000 +0800" channel="796.astro">
     <title lang="en">Judo: Morning Session</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Judo: Morning Session, from Aichi International Arena, Japan.</desc>
   </programme>
-  <programme start="20261002075000 +0800" stop="20261002085000 +0800" channel="796.astro">
+  <programme start="20261002075000 +0800" stop="20261002082000 +0800" channel="796.astro">
     <title lang="en">Daily Highlights: Day 11</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Daily Highlights: Day 11, from Aichi Nagoya, Japan.</desc>
+  </programme>
+  <programme start="20261002082000 +0800" stop="20261002083500 +0800" channel="796.astro">
+    <title lang="en">Golden Moments: Day 5</title>
+    <desc lang="en">Highlights of Golden Moments from 20th Asian Games Aichi-Nagoya 2026.</desc>
+  </programme>
+  <programme start="20261002083500 +0800" stop="20261002085000 +0800" channel="796.astro">
+    <title lang="en">Golden Moments: Day 6</title>
+    <desc lang="en">Highlights of Golden Moments from 20th Asian Games Aichi-Nagoya 2026.</desc>
   </programme>
   <programme start="20261002085000 +0800" stop="20261002110000 +0800" channel="796.astro">
     <title lang="en">(L) Volleyball: M 5th - 8th Classification</title>
@@ -89968,11 +89980,11 @@
     <title lang="en">(D) Judo: Evening Session</title>
     <desc lang="en">Delayed: 20th Asian Games Aichi-Nagoya 2026: Judo: Evening Session, from Aichi International Arena, Japan.</desc>
   </programme>
-  <programme start="20261001193000 +0800" stop="20261001203000 +0800" channel="797.astro">
+  <programme start="20261001193000 +0800" stop="20261001204000 +0800" channel="797.astro">
     <title lang="en">Daily Highlights: Day 7</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Daily Highlights: Day 7, from Aichi Nagoya, Japan.</desc>
   </programme>
-  <programme start="20261001203000 +0800" stop="20261001231000 +0800" channel="797.astro">
+  <programme start="20261001204000 +0800" stop="20261001231000 +0800" channel="797.astro">
     <title lang="en">Beach Volleyball: M/W QF</title>
     <desc lang="en">20th Asian Games Aichi-Nagoya 2026: Beach Volleyball: Men&#x27;s/Women&#x27;s Quarter Finals, from Hekinan Ryokuchi Beach Court, Japan.</desc>
   </programme>
@@ -95024,9 +95036,13 @@
     <title lang="en">ATP Tour Review Show 2026: BMW Open</title>
     <desc lang="en">Review Show of ATP Tour 2026: BMW Open, from MTTC Iphitos, Munich.</desc>
   </programme>
-  <programme start="20261001200000 +0800" stop="20261002060000 +0800" channel="819.astro">
+  <programme start="20261001200000 +0800" stop="20261002050000 +0800" channel="819.astro">
     <title lang="en">ATP 500&#x27;s China Open 2026: Day 1</title>
     <desc lang="en">ATP 500&#x27;s China Open 2026: Day 1, from Beijing, China.</desc>
+  </programme>
+  <programme start="20261002050000 +0800" stop="20261002060000 +0800" channel="819.astro">
+    <title lang="en">ATP Review Show: Cincinnati Open</title>
+    <desc lang="en">Review Show of ATP Tour 2026: Cincinnati Open, from Lindner Family Tennis Center, Cincinnati.</desc>
   </programme>
   <programme start="20261002060000 +0800" stop="20261002083000 +0800" channel="819.astro">
     <title lang="en">ATP 1000&#x27;s: National Bank Open: Day 12: Final</title>
