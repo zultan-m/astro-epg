@@ -19,6 +19,11 @@ jobs:
         run: |
           .\epg.exe
 
+          Write-Host ""
+          Write-Host "========== EPG LOG =========="
+          Get-Content .\epg.log
+          Write-Host "============================="
+
       - name: Commit files
         shell: powershell
         run: |
